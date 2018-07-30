@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Queterunye"
-categories: projects
+categories: news
 author: admin
 published: true
 date: 2018-07-30
