@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Better instrumentation, enhanced Postgres helpers and more"
-categories: news
+categories: projects
 author: kirshatrov
 published: true
 date: 2018-07-29
