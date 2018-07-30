@@ -1,0 +1,27 @@
+        <article>
+          <header>
+            <h2>
+              <a href="{{ post.url }}" rel="bookmark">{{ post.title | escape }}</a>
+            </h2>
+            <p class="entry-meta">
+              Posted by <span class="vcard"><span class="fn">{{ post.author }}</span></span>,
+              <span class="published" title="{{ post.date | date_to_xml_schema }}">{{ post.date | date: "%B %-d, %Y @ %l:%M %P" }}</span>
+              {% if post.categories.size > 0 %}
+                <span class="categories">in
+              {% for category in post.categories %}
+              {% if forloop.last %}
+                  <a href="/{{ category }}/" rel="category tag">{{ category | capitalize }}</a>
+              {% else %}
+                  <a href="{{ category }}" rel="category tag">{{ category | capitalize }}</a>,
+              {% endif %}
+              {% endfor %}
+                </span>
+              {% endif %}
+            </p>
+          </header>
+          <section>
+<!-- Begin Post -->
+{{ post.content }}
+<!-- End Post -->
+          </section>
+        </article>
