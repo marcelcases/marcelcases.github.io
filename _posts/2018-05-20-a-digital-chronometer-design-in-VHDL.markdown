@@ -28,8 +28,11 @@ This is the fifth practice of the subject. It consists in the development of a d
 2.2.4 Toggle . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
 3 Results and conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . 11
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+
 
 Marcel Cases
