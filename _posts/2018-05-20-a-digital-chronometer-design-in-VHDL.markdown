@@ -2,14 +2,14 @@
 layout: post
 title: "A digital chronometer design in VHDL"
 categories: projects
-author: admin
+author: marcel
 published: true
 date: 2018-05-20
 ---
 
 
 ## Abstract
-All along the semester, we have been working with Digital Systems subject as one of the main courses of the Electronics Engineering bachelorâ€™s degree. Most part of the subject consist in practical cases where students, in groups of two or three, had to develop the projects based on hardware description languages (VHDL) and Field Programmable Gate Arrays (FPGA).
+All along the semester, we have been working with Digital Systems subject as one of the main courses of the Electronics Engineering bachelor’s degree. Most part of the subject consist in practical cases where students, in groups of two or three, had to develop the projects based on hardware description languages (VHDL) and Field Programmable Gate Arrays (FPGA).
 This is the report of one of the practices we worked on so we are able to get recognized the competence in a foreign language.
 
 ## Introduction
@@ -28,5 +28,8 @@ This is the fifth practice of the subject. It consists in the development of a d
 2.2.4 Toggle . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
 3 Results and conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . 11
 
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 Marcel Cases
