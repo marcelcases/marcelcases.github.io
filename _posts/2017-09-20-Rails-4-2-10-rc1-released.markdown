@@ -3,7 +3,7 @@ layout: post
 title: 'Rails 4.2.10.rc1 released'
 categories: projects
 author: eileencodes
-published: true
+published: false
 date: 2017-09-20 16:01:10 -04:00
 ---
 
