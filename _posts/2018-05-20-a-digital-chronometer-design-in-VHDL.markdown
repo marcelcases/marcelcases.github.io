@@ -3,7 +3,7 @@ layout: post
 title: 'A digital chronometer design in VHDL'
 categories: projects
 author: marcel
-published: false
+published: true
 date: 2018-05-20 16:01:10 -04:00
 ---
 
