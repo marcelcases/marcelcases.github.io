@@ -27,17 +27,17 @@ By default, if the opposite is not indicated, the following features are common 
 ```
 i.  Introduction and goal . . . . . . . . . . . 2
 ii.Linear applications  . . . . . . . . . . . . 3
-1.	Inverting amplifier . . . . . . . . . . . . 3
-2.	Non-inverting amplifier . . . . . . . . . . 4
-3.	Summing	amplifier . . . . . . . . . . . . . 6
-4.	Subtractor amplifier. . . . . . . . . . . . 8
-5.	Inverting integrator. . . . . . . . . . .  11
-6.	Inverting differentiator. . . . . . . . .  12
+1.  Inverting amplifier . . . . . . . . . . . . 3
+2.  Non-inverting amplifier . . . . . . . . . . 4
+3.  Summing amplifier . . . . . . . . . . . . . 6
+4.  Subtractor amplifier. . . . . . . . . . . . 8
+5.  Inverting integrator. . . . . . . . . . .  11
+6.  Inverting differentiator. . . . . . . . .  12
 iii.Non-linear applications . . . . . . . . .  13
-7.	Trigger	Schmitt . . . . . . . . . . . . .  13
-8.	Astable	Multivibrator . . . . . . . . . .  14
+7.  Trigger Schmitt . . . . . . . . . . . . .  13
+8.  Astable Multivibrator . . . . . . . . . .  14
 iv.Filters  . . . . . . . . . . . . . . . . .  16
-9.	Low-pass filter . . . . . . . . . . . . .  16
+9.  Low-pass filter . . . . . . . . . . . . .  16
 10.High-pass filter . . . . . . . . . . . . .  19
 v.Questionnaire . . . . . . . . . . . . . . .  21
 vi.References . . . . . . . . . . . . . . . .  23
