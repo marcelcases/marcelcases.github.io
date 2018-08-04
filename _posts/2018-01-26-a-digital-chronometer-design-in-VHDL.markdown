@@ -16,19 +16,17 @@ This is the fifth practice of the subject. It consists in the development of a d
 
 ## Contents
 ```
-| Ch.   | Title                                  |  p |
-|-------|----------------------------------------|---:|
-| 1     | Introduction                           |  1 |
-| 1.1   | Objectives                             |  1 |
-| 1.2   | Abstract                               |  1 |
-| 2     | Development of the digital chronometer |  2 |
-| 2.1   | Top level                              |  2 |
-| 2.2   | Components                             |  8 |
-| 2.2.1 | Clock divider                          |  8 |
-| 2.2.2 | Units division                         |  9 |
-| 2.2.3 | Edge detection                         |  9 |
-| 2.2.4 | Toggle                                 |  9 |
-| 3     | Results and conclusion                 | 11 |
+1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . 1
+1.1 Objectives . . . . . . . . . . . . . . . . . . . . . . . . 1
+1.2 Abstract . . . . . . . . . . . . . . . . . . . . . . . . . 1
+2 Development of the digital chronometer . . . . . . . . . . . 2
+2.1 Top level. . . . . . . . . . . . . . . . . . . . . . . . . 2
+2.2 Components . . . . . . . . . . . . . . . . . . . . . . . . 8
+2.2.1 Clock divider. . . . . . . . . . . . . . . . . . . . . . 8
+2.2.2 Units division . . . . . . . . . . . . . . . . . . . . . 9
+2.2.3 Edge detection . . . . . . . . . . . . . . . . . . . . . 9
+2.2.4 Toggle . . . . . . . . . . . . . . . . . . . . . . . . . 9
+3 Results and conclusion . . . . . . . . . . . . . . . . . .  11
 ```
 
 [Open PDF](https://1drv.ms/b/s!AtguJR4tix_G4SxiMLKT8_GdAsrF){: .btn}
