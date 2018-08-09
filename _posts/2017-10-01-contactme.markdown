@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'Rails 5.2.0 FINAL: Active Storage, Redis Cache Store, HTTP/2 Early Hints, CSP, Credentials'
+title: 'Contact me'
 categories: contact
 author: marcel
 published: true
-date: 2018-04-09 12:00:00 -09:00
+date: 2017-10-01 12:00:00 +01:00
 ---
 Nearly 14 years since [the first public version of Rails](http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/107370), it's our pleasure to release yet another major upgrade to the framework in the form of 5.2.0 final. We've been diligently polishing Active Storage and the other big new components for stable release, and it's great to see so many applications already running the release candidates in production. [Basecamp](https://basecamp.com) and [Shopify](https://shopify.com) have both been running Rails 5.2.0 for quite a while.
 
