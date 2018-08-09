@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 'Rails 5.2.0 FINAL: Active Storage, Redis Cache Store, HTTP/2 Early Hints, CSP, Credentials'
-categories: releases
-author: dhh
+categories: contactt
+author: marcel
 published: true
 date: 2018-04-09 12:00:00 -09:00
 ---
