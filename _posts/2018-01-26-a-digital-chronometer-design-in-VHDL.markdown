@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'A digital chronometer design in VHDL'
-
 author: marcel
 published: true
 date: 2018-01-26 16:01:10 +02:00
@@ -29,7 +28,7 @@ This is the fifth practice of the subject. It consists in the development of a d
 3 Results and conclusion . . . . . . . . . . . . .  11
 ```
 
-## Online consultation
+## Check the document
 [Open PDF](https://1drv.ms/b/s!AtguJR4tix_G4SxiMLKT8_GdAsrF){: .btn}
 
 ###### Marcel Cases
