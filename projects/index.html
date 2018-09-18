@@ -4,5 +4,15 @@ title: "Projects"
 category: projects
 ---
 <h1> Projects </h1>
+<h2> List </h2>
 
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2> Detail </h2>
 {% include category.html %}
