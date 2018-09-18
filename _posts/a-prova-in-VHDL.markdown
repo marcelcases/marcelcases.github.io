@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'A digital chronometer design in VHDL'
+title: 'A prova in VHDL'
 categories: projects
 author: marcel
 published: true
