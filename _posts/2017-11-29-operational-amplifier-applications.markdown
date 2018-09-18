@@ -2,6 +2,7 @@
 layout: post
 title: 'Operational Amplifier Applications'
 author: marcel
+category: projects
 published: true
 date: 2017-11-29 11:15:10 +02:00
 ---
