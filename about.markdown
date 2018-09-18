@@ -7,31 +7,20 @@ published: true
 date: 2017-10-01 12:00:00 +01:00
 ---
 # About
-
-
-Johnny Coder
+Marcel Cases
 ============
-
--------------------     ----------------------------
-1 MyAddress                        email@example.com
-MyTown 1000                          @twitter_handle
-MyCountry                           1800 my-phone-nr
--------------------     ----------------------------
   
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2018-2019 (expected)
+:   **Excgange student**; Tallinn University of Technology. TalTech
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+2014-2018
+:   **BSc, Industrial Electronics and Automatic Control Engineering**; Universitat Politècnica de Catalunya. BarcelonaTech
 
-    *Minor: Awesomeology*
+    *Thesis title: Design and implementation of a field oriented controller system for a three-phase induction motor on an FPGA*
 
 Experience
 ----------
