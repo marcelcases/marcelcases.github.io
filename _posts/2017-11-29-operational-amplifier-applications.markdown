@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Operational Amplifier Applications'
-categories: projects
 author: marcel
 published: true
 date: 2017-11-29 11:15:10 +02:00
@@ -43,7 +42,7 @@ v.Questionnaire . . . . . . . . . . . . . . .  21
 vi.References . . . . . . . . . . . . . . . .  23
 ```
 
-## Online consultation
+## Check the document
 [Open PDF](https://1drv.ms/b/s!AtguJR4tix_G4S3GzX3gCyoagGaq){: .btn}
 
 ###### Marcel Cases
