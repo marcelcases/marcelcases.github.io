@@ -7,6 +7,8 @@ published: true
 date: 2017-10-01 12:00:00 +01:00
 ---
 # About
+
+
 Marcel Cases
 ============
   
@@ -17,10 +19,11 @@ Education
 :   **Excgange student**; Tallinn University of Technology. TalTech
 
 
+
 2014-2018
 :   **BSc, Industrial Electronics and Automatic Control Engineering**; Universitat Politècnica de Catalunya. BarcelonaTech
 
-    *Thesis title: Design and implementation of a field oriented controller system for a three-phase induction motor on an FPGA*
+    *Thesis title: Design and implementation of a field oriented controller system for a three-phase induction motor on a FPGA*
 
 Experience
 ----------
