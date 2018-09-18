@@ -12,14 +12,14 @@ date: 2017-10-01 12:00:00 +01:00
 Marcel Cases
 ============
   
-<br/>
+  
 Education
 ---------
 
 2018-2019 (expected)
-:   **Excgange student**; Tallinn University of Technology. TalTech
-
-
+:   **Exchange student**; Tallinn University of Technology. TalTech
+  
+  
 
 2014-2018
 :   **BSc, Industrial Electronics and Automatic Control Engineering**; Universitat Politècnica de Catalunya. BarcelonaTech
