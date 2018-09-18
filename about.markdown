@@ -17,7 +17,7 @@ Johnny Coder
 MyTown 1000                          @twitter_handle
 MyCountry                           1800 my-phone-nr
 -------------------     ----------------------------
-
+  
 Education
 ---------
 
