@@ -31,6 +31,3 @@ This is the fifth practice of the subject. It consists in the development of a d
 
 ## Check the document
 [Open PDF](https://1drv.ms/b/s!AtguJR4tix_G4SxiMLKT8_GdAsrF){: .btn}
-
-###### Marcel Cases
-
