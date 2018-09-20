@@ -17,5 +17,3 @@ on `Twitter` as [@marcelcases].
 [@marcelcases]: https://twitter.com/marcelcases
 
 Thanks!
-
-###### Marcel Cases
