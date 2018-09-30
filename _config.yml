@@ -5,7 +5,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - CNAME
-permalink: "/:title/"
+permalink: "/projects/:title/"
 markdown: kramdown
 category_dir: ""
 category_title_prefix: ""
