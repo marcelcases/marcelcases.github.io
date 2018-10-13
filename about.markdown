@@ -8,7 +8,7 @@ date: 2017-10-01 12:00:00 +01:00
 ---
 # About
 
-##_Marcel Cases Freixenet_
+### _Marcel Cases Freixenet_
 ---  
 
 Education
@@ -26,6 +26,6 @@ Education
 Experience
 ----------
 
-[Masats, S.A.](http://www.masats.es/en/) -Automotive Electronics Dept.-
+[Masats, S.A.](http://www.masats.es/en/) _Automotive Electronics Dept._
 
-[Link Industrial SLU](http://www.linkindustrial.es/web/en/) -Technical Office-
+[Link Industrial SLU](http://www.linkindustrial.es/web/en/) _Technical Office_
