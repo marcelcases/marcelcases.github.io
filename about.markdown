@@ -15,7 +15,7 @@ Education
 ---------
 
 2018-2019 (expected)
-:   **Exchange student**; Tallinn University of Technology. TalTech
+:   **Exchange student**; Tallinn University of Technology. TalTech     
 
 
 2014-2018
