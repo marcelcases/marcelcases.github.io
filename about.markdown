@@ -27,20 +27,8 @@ Education
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
-
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
-
-* First item
-
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
-
-**That Other Job You Had**
-
-Also with a short description.
+[Masats, S.A.](http://www.masats.es/en/) -automotive electronics-
+[Link Industrial SLU](http://www.linkindustrial.es/web/en/) -technical office-
 
 Technical Experience
 --------------------
@@ -80,16 +68,3 @@ Programming Languages
 :   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
 
 [ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
-----------------------------------------
-
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
