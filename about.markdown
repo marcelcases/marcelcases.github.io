@@ -28,6 +28,7 @@ Experience
 ----------
 
 [Masats, S.A.](http://www.masats.es/en/) -automotive electronics-
+
 [Link Industrial SLU](http://www.linkindustrial.es/web/en/) -technical office-
 
 Technical Experience
