@@ -16,6 +16,4 @@ on `Twitter` as [@marcelcases].
 
 [@marcelcases]: https://twitter.com/marcelcases
 
-<a class="twitter-timeline" data-width="450" data-height="800" data-theme="light" href="https://twitter.com/marcelcases?ref_src=twsrc%5Etfw">Tweets by marcelcases</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 Thanks!
