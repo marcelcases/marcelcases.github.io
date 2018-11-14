@@ -8,10 +8,10 @@ date: 2018-11-14 15:00:00 +03:00
 ---
 
 ## Function
-The following VHDL code describes a PWM generator that works at an output frequency of approximately 1kHz and has a duty cycle that can be configured through the n-bit input port *duty*.
+The following VHDL code describes a **PWM generator** that works at an output frequency of approximately 1kHz and has a duty cycle that can be configured through the n-bit input port *duty*.
 
 ## VHDL code
-{% highlight vhdl %}
+```
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -62,10 +62,10 @@ end process;
 pwm_out <= '1' when comptador < to_integer(unsigned(duty)) else '0';
 
 end behavioral;
-{% endhighlight %}
+```
 
 ## Testbench
-{% highlight vhdl %}
+```
 library ieee; 
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -112,4 +112,4 @@ duty_tb <= b"0111111111";
 --duty_tb <= b"1111111111";
 
 end bench;
-{% endhighlight %}
+```
