@@ -13,3 +13,8 @@ date: 2018-11-14 15:00:00 +03:00
 {% highlight python %}
 x = ('a', 1, False)
 {% endhighlight %}
+
+
+```javascript
+Some code.
+```
