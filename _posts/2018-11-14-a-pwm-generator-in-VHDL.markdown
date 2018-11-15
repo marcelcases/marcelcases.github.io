@@ -72,7 +72,7 @@ use ieee.numeric_std.all;
 
 
 entity pwm_tb is
-    generic (   n : integer := 10; -- Resolucio de 0 a 1023
+    generic (   n : integer := 10;
                 eoc : integer := 99
                 );
 end pwm_tb;
@@ -96,7 +96,7 @@ architecture bench of pwm_tb is
 begin
 
 uut: pwm
-    generic map (   n => 10, -- Resolucio de 0 a 1023
+    generic map (   n => 10,
                     eoc => 99
                     )
     port map (  clk => clk_tb,
