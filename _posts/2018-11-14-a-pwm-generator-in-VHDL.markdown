@@ -8,7 +8,7 @@ date: 2018-11-14 15:00:00 +03:00
 ---
 
 ## Function
-The following VHDL code describes a **PWM generator** that works at an output frequency of approximately 1kHz and has a duty cycle that can be configured through the n-bit input port *duty*.
+The following VHDL code describes a **PWM signal generator** that works at an output frequency of approximately 1kHz and has a duty cycle that can be configured through the n-bit input port *duty*.
 
 ## VHDL code
 ```
