@@ -19,7 +19,7 @@ use ieee.numeric_std.all;
 
 entity pwm is
     generic (   n : integer := 10; -- resolution from 0 to 1023
-                eoc : integer := 99999
+                eoc : integer := 99
                 );
     port (  clk, reset : in std_logic;
             duty : in std_logic_vector (n-1 downto 0);
