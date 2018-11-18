@@ -18,7 +18,7 @@ use ieee.numeric_std.all;
 
 
 entity pwm is
-    generic (   n : integer := 10; -- resolution from 0 to 1023
+    generic (   n : integer := 10; -- 1024 bit resolution
                 eoc : integer := 99
                 );
     port (  clk, reset : in std_logic;
