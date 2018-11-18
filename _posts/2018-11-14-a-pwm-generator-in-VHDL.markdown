@@ -107,9 +107,9 @@ uut: pwm
 
 clk_tb <= not clk_tb after 5ns; --half_period
 reset_tb <= '0' after 10ns;
---duty_tb <= b"0000000000";
-duty_tb <= b"0111111111";
---duty_tb <= b"1111111111";
+--duty_tb <= b"0000000000"; -- 0% duty cycle
+duty_tb <= b"0111111111"; -- 50% duty cycle
+--duty_tb <= b"1111111111"; -- 100% duty cycle
 
 end bench;
 ```
