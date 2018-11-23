@@ -8,7 +8,7 @@ date: 2018-10-03 15:00:00 +03:00
 ---
 
 ## Introduction
-This project consists in the design and implementation of a digital two bit adder. To do this, two methods are used. The first is using VHDL code only and a full adder and a half adder as components. The other is using a Xininx's Vivado feature named Block Design.
+This project consists in the design and implementation of a digital **two bit adder**. To do this, two methods are used. The first is using **VHDL code** only and a full adder and a **half adder as components**. The other is using a Xininx's Vivado feature named **Block Design**.
 
 ## Workflow
 The hardware description of the two bit adder has been developed using two methods. The first is using only VHDL code and two components, a half-adder and a full-adder, that are instantiated in the top level. The other method is using a Xilinx's Vivado feature named Block Design as the top level file.
