@@ -8,7 +8,7 @@ date: 2017-11-29 11:15:10 +02:00
 ---
 
 ## Introduction and goal
-The operational amplifier (op amp) is a very versatile analog component that, depending on 
+The **operational amplifier** (op amp) is a very versatile analog component that, depending on 
 its configuration, allows to do some operations like amplify, add, subtract, integrate, oscillate 
 or filter analog signals. They are some of the typical applications where the component 
 is used in daily electronics.
