@@ -8,10 +8,10 @@ date: 2018-09-19 11:00:30 +03:00
 ---
 
 ## Introduction
-This is a VHDL design of a digital two-bit comparator. An output is shown depending on whether the comparation is greater, equal or less than the other.
+This is a VHDL design of a digital **two-bit comparator**. An output is shown depending on whether the comparation is greater, equal or less than the other.
 
 ## Workflow
-Three different methods to compare two bits have been implemented: its boolean equations, VHDL's "when .. else" statement and VHDL's "with .. select" statement. The simulation, the RTL analysis and the synthesis scheme are shown as well.
+Three different methods to compare two bits have been implemented: its boolean equations, VHDL's "when .. else" statement and VHDL's "with .. select" statement. The **simulation**, the **RTL analysis** and the **synthesis scheme** are shown as well.
 
 ## Contents
 ```
