@@ -8,10 +8,10 @@ date: 2018-10-10 15:00:00 +03:00
 ---
 
 ## Introduction
-This project consists in the design and implementation of a digital up-counter on a FPGA board. A signal from a physical push-button is filtered through a debouncer and an edge detector and is used in a counter process to increment one unit each time the button is pushed. The current value of the counter is shown on the board's LEDs in a binary form.
+This project consists in the design and implementation of a digital **up-counter** on a FPGA board. A signal from a physical push-button is **filter**ed through a **debouncer** and an **edge detector** and is used in a counter process to increment one unit each time the button is pushed. The current value of the counter is shown on the board's LEDs in a binary form.
 
 ## Workflow
-The hardware description of the counter consists in two components (debouncing and edge-detection) and a process (up-counter). They run concurrently one another.
+The hardware description of the counter consists in two **components** (debouncing and edge-detection) and a **process** (up-counter). They **run concurrently** one another.
 
 ## Contents
 ```
