@@ -14,14 +14,14 @@ date: 2017-10-01 12:00:00 +01:00
 Education
 ---------
 
-2018-2019 (expected)
+2018-2019
 :   **Exchange student**; Tallinn University of Technology. TalTech     
       
       
-2014-2018
+2015-2019
 :   **BSc, Electronics and Automatic Control Engineering**; Universitat Politècnica de Catalunya. BarcelonaTech
 
-    *Thesis title: Design and implementation of a hardware-based field oriented controller for a three-phase induction motor on a FPGA*
+    *Thesis title: Design and implementation of a hardware-based controller for a three-phase induction motor on a FPGA*
 
 Experience
 ----------
