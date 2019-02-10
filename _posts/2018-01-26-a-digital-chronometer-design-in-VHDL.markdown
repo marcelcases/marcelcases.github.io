@@ -29,5 +29,5 @@ This is the fifth practice of the subject. It consists in the development of a *
 3 Results and conclusion . . . . . . . . . . . . .  11
 ```
 
-## Check the document
+## Check out the document
 [Open PDF](https://1drv.ms/b/s!AtguJR4tix_G4SxiMLKT8_GdAsrF){: .btn}
