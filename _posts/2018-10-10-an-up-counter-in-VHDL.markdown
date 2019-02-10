@@ -33,5 +33,5 @@ The hardware description of the counter consists in two **components** (debounci
 4 Conclusion . . . . . . . . . . . . . . . . . 9
 ```
 
-## Check the document
+## Check out the document
 [Open PDF](https://1drv.ms/b/s!AtguJR4tix_G9mMSKmsO1Zz_btLQ){: .btn}
