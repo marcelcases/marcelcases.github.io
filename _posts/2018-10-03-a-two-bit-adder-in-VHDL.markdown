@@ -34,5 +34,5 @@ The hardware description of the two bit adder has been developed using two metho
 References . . . . . . . . . . . . . . . . . . .12
 ```
 
-## Check the document
+## Check out the document
 [Open PDF](https://1drv.ms/b/s!AtguJR4tix_G7CgExuTcDRj522pv){: .btn}
