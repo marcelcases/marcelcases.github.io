@@ -33,5 +33,5 @@ The hardware description of the parameterizable multiplier consists in component
 References . . . . . . . . . . . . . . . . . . .12
 ```
 
-## Check the document
+## Check out the document
 [Open PDF](https://1drv.ms/b/s!AtguJR4tix_GgYIdeokbTElBByBGow){: .btn}
