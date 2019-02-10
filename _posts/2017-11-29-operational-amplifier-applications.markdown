@@ -43,6 +43,6 @@ v.Questionnaire . . . . . . . . . . . . . . .  21
 vi.References . . . . . . . . . . . . . . . .  23
 ```
 
-## Check the document
+## Check out the document
 [Open PDF](https://1drv.ms/b/s!AtguJR4tix_G4S3GzX3gCyoagGaq){: .btn}
 
