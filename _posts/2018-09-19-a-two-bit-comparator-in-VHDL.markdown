@@ -35,5 +35,5 @@ Three different methods to compare two bits have been implemented: its boolean e
 References . . . . . . . . . . . . . . . . . . .11
 ```
 
-## Check the document
+## Check out the document
 [Open PDF](https://1drv.ms/b/s!AtguJR4tix_G42S3zPHYfIO35fwR){: .btn}
