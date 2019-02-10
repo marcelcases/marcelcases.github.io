@@ -38,5 +38,5 @@ The hardware description of the creeping line consists in components and concurr
 References . . . . . . . . . . . . . . . . . . .12
 ```
 
-## Check the document
+## Check out the document
 [Open PDF](https://1drv.ms/b/s!AtguJR4tix_G93GE2gocUUHq5-WL){: .btn}
