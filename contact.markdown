@@ -8,12 +8,13 @@ date: 2017-10-01 12:00:00 +01:00
 ---
 # Contact me
 
-The preferred way of contacting me is to mail me at  
-![](/images/email.png?raw=true)
+The preferred way of contacting me is to mail me at
+contact🧭marcelcases.com
 
 You can also try to catch me
-on `Twitter` as [@marcelcases].
+on `Twitter` as [@marcelcases] and [Telegram].
 
-[@marcelcases]: https://twitter.com/marcelcases
+[@marcelcases] : https://twitter.com/marcelcases
+[Telegram] : https://t.me/marcelcases
 
 Thanks!
