@@ -14,7 +14,7 @@ contact🧭marcelcases.com
 You can also try to catch me
 on `Twitter` as [@marcelcases] and [Telegram].    
 
-[@marcelcases] : https://twitter.com/marcelcases    
-[Telegram] : https://t.me/marcelcases    
+[@marcelcases]: https://twitter.com/marcelcases    
+[Telegram]: https://t.me/marcelcases    
 
 Thanks!
