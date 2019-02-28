@@ -21,7 +21,7 @@ Education
 2015-2019
 :   **BSc, Electronics and Automatic Control Engineering**; Universitat Politècnica de Catalunya. BarcelonaTech
 
-    *Thesis title: Design and implementation of a hardware-based controller for a three-phase induction motor on a FPGA*
+    *Thesis title: Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA*
 
 Experience
 ----------
