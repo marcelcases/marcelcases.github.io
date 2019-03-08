@@ -28,4 +28,4 @@ The aim of this thesis is to study the main techniques of motor control in order
 ```
 
 ## Check out the document
-[Open PDF](){: .btn}
+[Open PDF](https://1drv.ms/b/s!AtguJR4tix_Gg7EbHingfbpoYLh_ag){: .btn}
