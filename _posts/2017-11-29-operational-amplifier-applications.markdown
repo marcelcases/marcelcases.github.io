@@ -44,5 +44,5 @@ vi.References . . . . . . . . . . . . . . . .  23
 ```
 
 ## Check out the document
-[Open PDF](https://onedrive.live.com/pdf?cid=C61F8B2D1E252ED8&authKey=%21AMbNfeALKhqAZqo&resid=C61F8B2D1E252ED8%2112461&ithint=%2Epdf&open=1){: .btn}
+[Open PDF](https://1drv.ms/b/s!AtguJR4tix_G4S3GzX3gCyoagGaq){: .btn}
 
