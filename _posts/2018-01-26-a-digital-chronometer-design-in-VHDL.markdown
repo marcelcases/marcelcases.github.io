@@ -30,4 +30,4 @@ This is the fifth practice of the subject. It consists in the development of a *
 ```
 
 ## Check out the document
-[Open PDF](https://onedrive.live.com/pdf?cid=C61F8B2D1E252ED8&authKey=%21AGIwspPz8Z0CysU&resid=C61F8B2D1E252ED8%2112460&ithint=%2Epdf&open=1){: .btn}
+[Open PDF](https://1drv.ms/b/s!AtguJR4tix_G4SxiMLKT8_GdAsrF){: .btn}
