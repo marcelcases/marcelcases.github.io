@@ -28,4 +28,6 @@ Experience
 
 **[Masats, S.A.](http://www.masats.es/en/)** _Automotive Electronics Dept._
 
-**[Link Industrial SLU](http://www.linkindustrial.es/web/en/)** _Technical Office_
+**[Link Industrial, S.L.U.](http://www.linkindustrial.es/web/en/)** _Technical Office_
+
+[Complete CV](mailto:test@example.com)
