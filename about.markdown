@@ -30,4 +30,4 @@ Experience
 
 **[Link Industrial, S.L.U.](http://www.linkindustrial.es/web/en/)** _Technical Office_
 
-[Complete CV](mailto:test@example.com)
+[Extended CV](mailto:contact@marcelcases.com?subject=Request extended CV)
