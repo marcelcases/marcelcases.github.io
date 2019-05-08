@@ -18,7 +18,3 @@ on `Twitter` as [@marcelcases] and [Telegram].
 [Telegram]: https://t.me/marcelcases    
 
 Thanks!
-
-
-Bé, el push s'ha efectuat amb èxit!
-õõõ
