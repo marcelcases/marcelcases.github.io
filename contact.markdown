@@ -9,7 +9,7 @@ date: 2017-10-01 12:00:00 +01:00
 # Contact me
 
 The preferred way of contacting me is to mail me at    
-`contact`🧭`marcelcases.com`    
+`[contact@marcelcases.com](mailto:contact@marcelcases.com?subject=Contact)`    
 
 You can also try to catch me
 on `Twitter` as [@marcelcases] and [Telegram].    
