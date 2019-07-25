@@ -4,7 +4,7 @@ title: 'Implementation and verification of a hardware-based controller for a thr
 author: marcel
 category: projects
 published: true
-date: 2019-03-01 15:00:00 +02:00
+date: 2019-03-14 15:00:00 +02:00
 ---
 
 ## Abstract
@@ -26,6 +26,9 @@ The aim of this thesis is to study the main techniques of motor control in order
 10 Conclusion. . . . . . . . . . . . . . . . . .  40
 11 Future work . . . . . . . . . . . . . . . . .  41
 ```
+
+## Publication to UPC's institutional repository
+[Link](http://hdl.handle.net/2117/134233){: .btn}
 
 ## Check out the document
 [Open PDF](https://1drv.ms/b/s!AtguJR4tix_Gg7EbHingfbpoYLh_ag){: .btn}
