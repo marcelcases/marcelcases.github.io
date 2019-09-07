@@ -21,4 +21,4 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://avatars.githubusercontent.com/u/4223
+      image: https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png
