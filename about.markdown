@@ -26,7 +26,7 @@ Education
 Experience
 ----------
 
-**[Masats, S.A.](http://www.masats.es/en/)** _Automotive Electronics Dept., R+D+i_
+**[Masats, S.A.](http://www.masats.es/en/) (Irizar Group)** _Automotive Electronics Dept., R+D+i_
 
 **[Link Industrial, S.L.U.](http://www.linkindustrial.es/web/en/)** _Technical Office_
 
