@@ -9,6 +9,7 @@ date: 2017-10-01 12:00:00 +01:00
 # About
 
 ### _Marcel Cases i Freixenet_
+#### &#x1F4CD; Barcelona
 ---  
 
 Education
