@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: other
 title: 'About'
 categories: about
 author: marcel
@@ -11,7 +11,7 @@ date: 2017-10-01 12:00:00 +01:00
 ### _Marcel Cases i Freixenet_
 &#x1F4CD; Barcelona
 <br>
-<img src="/images/marcel.jpg" alt="drawing" width="150"/>
+<img src="/images/marcel.jpg" alt="drawing" width="175"/>
 <br>
 ---  
 
@@ -25,7 +25,7 @@ Education
 2015-2019
 :   **BSc, Electronics and Automatic Control Engineering**; Universitat Politècnica de Catalunya. BarcelonaTech
 
-    *Thesis title: [Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA](https://www.marcelcases.com/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/)*
+    *Thesis title: [Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA](/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/)*
 
 Experience
 ----------

@@ -31,10 +31,17 @@ nav {
   float: left;
 }
 
+other a {
+  color: #cc0000;
+  padding-bottom: 0.1rem;
+  text-decoration: none;
+}
 
+other a:hover {
+  /*border-bottom: 0.2rem solid #cc0000;*/
+  text-decoration: underline;
 
-
-
+}
 
 nav ul {
   float: right;

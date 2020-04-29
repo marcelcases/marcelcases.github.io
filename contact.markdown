@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: other
 title: 'Contact me'
 categories: contact
 author: marcel
@@ -9,10 +9,10 @@ date: 2017-10-01 12:00:00 +01:00
 # Contact me
 
 The preferred way of contacting me is to mail me at    
-[m@rcel.xyz](mailto:m@rcel.xyz?subject=Contact)    
+**[m@rcel.xyz](mailto:m@rcel.xyz?subject=Contact)**.  
 
 You can also try to catch me
-on `Twitter` as [@marcelcases] and [Telegram].    
+on `Twitter` as **[@marcelcases]** and **[Telegram]**.    
 
 [@marcelcases]: https://twitter.com/marcelcases    
 [Telegram]: https://t.me/marcelcases    
