@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-29T22:05:43+02:00</updated><id>http://localhost:4000/feed/atom.xml</id><title type="html">Marcel Cases</title><entry><title type="html">Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA</title><link href="http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/" rel="alternate" type="text/html" title="Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA" /><published>2019-03-14T14:00:00+01:00</published><updated>2019-03-14T14:00:00+01:00</updated><id>http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA</id><content type="html" xml:base="http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/">&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The aim of this thesis is to study the main techniques of motor control in order to implement and design a hardware-based controller for a three-phase induction motor, developed in VHDL language and running on an Artix-7 FPGA (Xilinx). This controller is based on variable-frequency drive techniques. The modules that define this controller’s hardware description run concurrently to each other, and they allow the motor to have a better time response and they also improve its performance compared to a microcontroller. This thesis is related to digital systems, power electronics and control systems.&lt;/p&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1 Introduction . . . . . . . . . . . . . . . . . . 2
+2 Motivation . . . . . . . . . . . . . . . . . . . 4
+3 Variable-frequency Drive . . . . . . . . . . . . 6
+4 Field Oriented Control . . . . . . . . . . . . . 9
+5 Direct Torque Control. . . . . . . . . . . . .  16
+6 Field Programmable Gate Arrays . . . . . . . .  19
+7 Inverter and motor . . . . . . . . . . . . . .  24
+8 Implementation and Verifcation of a
+        scalar VFD on an FPGA with VHDL. . . . .  28
+9 Simulation and Verifcation of a
+        vector FOC on an FPGA with VHDL. . . . .  37
+10 Conclusion. . . . . . . . . . . . . . . . . .  40
+11 Future work . . . . . . . . . . . . . . . . .  41
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;publication-to-upcs-institutional-repository&quot;&gt;Publication to UPC’s institutional repository&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://hdl.handle.net/2117/134233&quot; class=&quot;btn&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;check-out-the-document&quot;&gt;Check out the document&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://1drv.ms/b/s!AtguJR4tix_Gg7EbHingfbpoYLh_ag&quot; class=&quot;btn&quot;&gt;Open PDF&lt;/a&gt;&lt;/p&gt;</content><author><name>marcel</name></author><category term="projects" /><summary type="html">Abstract The aim of this thesis is to study the main techniques of motor control in order to implement and design a hardware-based controller for a three-phase induction motor, developed in VHDL language and running on an Artix-7 FPGA (Xilinx). This controller is based on variable-frequency drive techniques. The modules that define this controller’s hardware description run concurrently to each other, and they allow the motor to have a better time response and they also improve its performance compared to a microcontroller. This thesis is related to digital systems, power electronics and control systems. Contents 1 Introduction . . . . . . . . . . . . . . . . . . 2 2 Motivation . . . . . . . . . . . . . . . . . . . 4 3 Variable-frequency Drive . . . . . . . . . . . . 6 4 Field Oriented Control . . . . . . . . . . . . . 9 5 Direct Torque Control. . . . . . . . . . . . . 16 6 Field Programmable Gate Arrays . . . . . . . . 19 7 Inverter and motor . . . . . . . . . . . . . . 24 8 Implementation and Verifcation of a scalar VFD on an FPGA with VHDL. . . . . 28 9 Simulation and Verifcation of a vector FOC on an FPGA with VHDL. . . . . 37 10 Conclusion. . . . . . . . . . . . . . . . . . 40 11 Future work . . . . . . . . . . . . . . . . . 41 Publication to UPC’s institutional repository Link Check out the document Open PDF</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" /><media:content medium="image" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A PWM generator in VHDL</title><link href="http://localhost:4000/projects/a-pwm-generator-in-VHDL/" rel="alternate" type="text/html" title="A PWM generator in VHDL" /><published>2018-11-14T13:00:00+01:00</published><updated>2018-11-14T13:00:00+01:00</updated><id>http://localhost:4000/projects/a-pwm-generator-in-VHDL</id><content type="html" xml:base="http://localhost:4000/projects/a-pwm-generator-in-VHDL/">&lt;h2 id=&quot;function&quot;&gt;Function&lt;/h2&gt;
+&lt;p&gt;The following VHDL code describes a &lt;strong&gt;PWM signal generator&lt;/strong&gt; that works at an output frequency of approximately 1kHz and has a duty cycle that can be configured through the n-bit input port &lt;em&gt;duty&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;vhdl-code&quot;&gt;VHDL code&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity pwm is
+    generic (   n : integer := 10; -- 1024 bit resolution
+                eoc : integer := 99
+                );
+    port (  clk, reset : in std_logic;
+            duty : in std_logic_vector (n-1 downto 0);
+            pwm_out : out std_logic
+            );
+end pwm;
+
+architecture behavioral of pwm is
+    signal comptador : integer range 0 to 2**n-1;
+    signal comptador_clk_div : integer range 0 to eoc;
+    signal clk_div : std_logic ;
+
+begin
+
+proc_clk_div : process (clk) begin
+    if rising_edge(clk) then
+        clk_div &amp;lt;= '0';
+        if reset = '1' then
+            comptador_clk_div &amp;lt;= 0;
+        elsif comptador_clk_div = eoc then
+            comptador_clk_div &amp;lt;= 0;
+            clk_div &amp;lt;= '1';
+        else comptador_clk_div &amp;lt;= comptador_clk_div + 1;
+        end if;
+    end if;
+end process;
+
+proc_comptador : process (clk_div) is begin
+    if rising_edge(clk_div) then
+        if reset = '1' then
+            comptador &amp;lt;= 0;
+        elsif comptador = 2**n-2 then
+            comptador &amp;lt;= 0;
+        else
+            comptador &amp;lt;= comptador + 1;
+        end if;
+    end if;
+end process;
+
+pwm_out &amp;lt;= '1' when comptador &amp;lt; to_integer(unsigned(duty)) else '0';
+
+end behavioral;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;testbench&quot;&gt;Testbench&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;library ieee; 
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity pwm_tb is
+    generic (   n : integer := 10;
+                eoc : integer := 99
+                );
+end pwm_tb;
+
+architecture bench of pwm_tb is
+    component  pwm is
+        generic (   n : integer;
+                    eoc : integer
+                    );
+        port (  clk, reset : in std_logic;
+                duty : in std_logic_vector (n-1 downto 0);
+                pwm_out : out std_logic
+                );
+    end component ;
+
+    signal clk_tb : std_logic := '0';
+    signal reset_tb : std_logic := '1';
+    signal duty_tb : std_logic_vector (n-1 downto 0);
+    signal pwm_out_tb : std_logic;
+        
+begin
+
+uut: pwm
+    generic map (   n =&amp;gt; 10,
+                    eoc =&amp;gt; 99
+                    )
+    port map (  clk =&amp;gt; clk_tb,
+                reset =&amp;gt; reset_tb,
+                duty =&amp;gt; duty_tb,
+                pwm_out =&amp;gt; pwm_out_tb
+                );
+
+clk_tb &amp;lt;= not clk_tb after 5ns; --half_period
+reset_tb &amp;lt;= '0' after 10ns;
+--duty_tb &amp;lt;= b&quot;0000000000&quot;; -- 0% duty cycle
+duty_tb &amp;lt;= b&quot;0111111111&quot;; -- 50% duty cycle
+--duty_tb &amp;lt;= b&quot;1111111111&quot;; -- 100% duty cycle
+
+end bench;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>marcel</name></author><category term="projects" /><summary type="html">Function The following VHDL code describes a PWM signal generator that works at an output frequency of approximately 1kHz and has a duty cycle that can be configured through the n-bit input port duty.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" /><media:content medium="image" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A parameterizable multiplier in VHDL</title><link href="http://localhost:4000/projects/a-parameterizable-multiplier-in-VHDL/" rel="alternate" type="text/html" title="A parameterizable multiplier in VHDL" /><published>2018-11-07T13:00:00+01:00</published><updated>2018-11-07T13:00:00+01:00</updated><id>http://localhost:4000/projects/a-parameterizable-multiplier-in-VHDL</id><content type="html" xml:base="http://localhost:4000/projects/a-parameterizable-multiplier-in-VHDL/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This project consists in the design, simulation and implementation in VHDL of a parameterizable multiplier using &lt;strong&gt;generate&lt;/strong&gt; and &lt;strong&gt;for statements&lt;/strong&gt; and &lt;strong&gt;structural design&lt;/strong&gt;. Given a number &lt;em&gt;data_width&lt;/em&gt;, the synthesizer will reconfigure itself in order to perform a multiplication using &lt;em&gt;data_width&lt;/em&gt; switches by &lt;em&gt;data_width&lt;/em&gt; switches. The result will be shown on four 7-segment displays in hexadecimal.&lt;/p&gt;
+&lt;h2 id=&quot;workflow&quot;&gt;Workflow&lt;/h2&gt;
+&lt;p&gt;The hardware description of the parameterizable multiplier consists in components and concurrent statements that run together at the top level of the project. They are a &lt;strong&gt;Ripple Carry Adder&lt;/strong&gt; instantiated &lt;em&gt;data_width - 1&lt;/em&gt; times; and a decoder, a clock divider and an up-counter to show the results on the 7-segment displays. A testbench is described in order to perform a simulation.&lt;/p&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1 Introduction . . . . . . . . . . . . . . . . . 1
+1.1 Aim  . . . . . . . . . . . . . . . . . . . . 1
+1.2 Background . . . . . . . . . . . . . . . . . 1
+2 Workflow . . . . . . . . . . . . . . . . . . . 3
+2.1 Top level file . . . . . . . . . . . . . . . 3
+2.1.1 Libraries  . . . . . . . . . . . . . . . . 3
+2.1.2 Entity . . . . . . . . . . . . . . . . . . 3
+2.1.3 Architecture . . . . . . . . . . . . . . . 3
+2.2 Components . . . . . . . . . . . . . . . . . 6
+2.2.1 Ripple Carry Adder  . . . . . . . . . . . .6
+2.2.2 Clock Divider and Decoder  . . . . . . . . 7
+2.2.3 Full Adder from three Half Adders . . . . .7
+2.3 Testbench  . . . . . . . . . . . . . . . . . 8
+3 Results and discussion . . . . . . . . . . . .10
+3.1 Simulation . . . . . . . . . . . . . . . . .10
+4 Conclusion . . . . . . . . . . . . . . . . . .11
+References . . . . . . . . . . . . . . . . . . .12
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;check-out-the-document&quot;&gt;Check out the document&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://1drv.ms/b/s!AtguJR4tix_GgYIdeokbTElBByBGow&quot; class=&quot;btn&quot;&gt;Open PDF&lt;/a&gt;&lt;/p&gt;</content><author><name>marcel</name></author><category term="projects" /><summary type="html">Introduction This project consists in the design, simulation and implementation in VHDL of a parameterizable multiplier using generate and for statements and structural design. Given a number data_width, the synthesizer will reconfigure itself in order to perform a multiplication using data_width switches by data_width switches. The result will be shown on four 7-segment displays in hexadecimal. Workflow The hardware description of the parameterizable multiplier consists in components and concurrent statements that run together at the top level of the project. They are a Ripple Carry Adder instantiated data_width - 1 times; and a decoder, a clock divider and an up-counter to show the results on the 7-segment displays. A testbench is described in order to perform a simulation.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" /><media:content medium="image" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A creeping line in VHDL</title><link href="http://localhost:4000/projects/a-creeping-line-in-VHDL/" rel="alternate" type="text/html" title="A creeping line in VHDL" /><published>2018-10-17T14:00:00+02:00</published><updated>2018-10-17T14:00:00+02:00</updated><id>http://localhost:4000/projects/a-creeping-line-in-VHDL</id><content type="html" xml:base="http://localhost:4000/projects/a-creeping-line-in-VHDL/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This project consists in the design, simulation and implementation in VHDL of a &lt;strong&gt;creeping line&lt;/strong&gt;. The content will be multiplexed and &lt;strong&gt;shown on the 7-segment displays&lt;/strong&gt; of the Nexys 4 board.&lt;/p&gt;
+
+&lt;h2 id=&quot;workflow&quot;&gt;Workflow&lt;/h2&gt;
+&lt;p&gt;The hardware description of the creeping line consists in components and concurrent statements that run together at the top level of the project. They are a &lt;strong&gt;32-bit shift register&lt;/strong&gt;, a &lt;strong&gt;clock divider&lt;/strong&gt;, an &lt;strong&gt;up-counter&lt;/strong&gt; and a &lt;strong&gt;look-up table&lt;/strong&gt;. A &lt;strong&gt;testbench&lt;/strong&gt; is described in order to perform a &lt;strong&gt;simulation&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1 Introduction . . . . . . . . . . . . . . . . . 1
+1.1 Aim  . . . . . . . . . . . . . . . . . . . . 1
+1.2 Background . . . . . . . . . . . . . . . . . 1
+2 Workflow . . . . . . . . . . . . . . . . . . . 3
+2.1 Top level file . . . . . . . . . . . . . . . 3
+2.1.1 Libraries  . . . . . . . . . . . . . . . . 3
+2.1.2 Entity . . . . . . . . . . . . . . . . . . 3
+2.1.2.1 Using switches . . . . . . . . . . . . . 3
+2.1.2.2 Using a shift register . . . . . . . . . 3
+2.1.3 Architecture . . . . . . . . . . . . . . . 4
+2.1.3.1 Using switches . . . . . . . . . . . . . 4
+2.1.3.2 Using a shift register . . . . . . . . . 5
+2.2 Components . . . . . . . . . . . . . . . . . 7
+2.2.1 Decoder  . . . . . . . . . . . . . . . . . 7
+2.2.2 Clock Divider  . . . . . . . . . . . . . . 8
+2.2.3 Shift Register . . . . . . . . . . . . . . 8
+2.3 Testbench  . . . . . . . . . . . . . . . . . 9
+3 Results and discussion . . . . . . . . . . . .10
+3.1 Simulation . . . . . . . . . . . . . . . . .10
+4 Conclusion . . . . . . . . . . . . . . . . . .11
+References . . . . . . . . . . . . . . . . . . .12
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;check-out-the-document&quot;&gt;Check out the document&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://1drv.ms/b/s!AtguJR4tix_G93GE2gocUUHq5-WL&quot; class=&quot;btn&quot;&gt;Open PDF&lt;/a&gt;&lt;/p&gt;</content><author><name>marcel</name></author><category term="projects" /><summary type="html">Introduction This project consists in the design, simulation and implementation in VHDL of a creeping line. The content will be multiplexed and shown on the 7-segment displays of the Nexys 4 board.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" /><media:content medium="image" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">An up-counter in VHDL</title><link href="http://localhost:4000/projects/an-up-counter-in-VHDL/" rel="alternate" type="text/html" title="An up-counter in VHDL" /><published>2018-10-10T14:00:00+02:00</published><updated>2018-10-10T14:00:00+02:00</updated><id>http://localhost:4000/projects/an-up-counter-in-VHDL</id><content type="html" xml:base="http://localhost:4000/projects/an-up-counter-in-VHDL/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This project consists in the design and implementation of a digital &lt;strong&gt;up-counter&lt;/strong&gt; on a FPGA board. A signal from a physical push-button is &lt;strong&gt;filter&lt;/strong&gt;ed through a &lt;strong&gt;debouncer&lt;/strong&gt; and an &lt;strong&gt;edge detector&lt;/strong&gt; and is used in a counter process to increment one unit each time the button is pushed. The current value of the counter is shown on the board’s LEDs in a binary form.&lt;/p&gt;
+
+&lt;h2 id=&quot;workflow&quot;&gt;Workflow&lt;/h2&gt;
+&lt;p&gt;The hardware description of the counter consists in two &lt;strong&gt;components&lt;/strong&gt; (debouncing and edge-detection) and a &lt;strong&gt;process&lt;/strong&gt; (up-counter). They &lt;strong&gt;run concurrently&lt;/strong&gt; one another.&lt;/p&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1 Introduction . . . . . . . . . . . . . . . . 1
+1.1 Aim  . . . . . . . . . . . . . . . . . . . 1
+1.2 Background . . . . . . . . . . . . . . . . 1
+1.2.1 Debouncing . . . . . . . . . . . . . . . 1
+1.2.2 Edge detection . . . . . . . . . . . . . 2
+2 Workflow . . . . . . . . . . . . . . . . . . 3
+2.1 Debouncing component . . . . . . . . . . . 3
+2.1.1 Clock divider component  . . . . . . . . 4
+2.2 Edge-detection component . . . . . . . . . 4
+2.3 Up-counter process . . . . . . . . . . . . 5
+2.4 Top level file . . . . . . . . . . . . . . 5
+2.4.1 Libraries  . . . . . . . . . . . . . . . 5
+2.4.2 Entity . . . . . . . . . . . . . . . . . 6
+2.4.3 Architecture . . . . . . . . . . . . . . 6
+3 Results and discussion . . . . . . . . . . . 8
+4 Conclusion . . . . . . . . . . . . . . . . . 9
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;check-out-the-document&quot;&gt;Check out the document&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://1drv.ms/b/s!AtguJR4tix_G9mMSKmsO1Zz_btLQ&quot; class=&quot;btn&quot;&gt;Open PDF&lt;/a&gt;&lt;/p&gt;</content><author><name>marcel</name></author><category term="projects" /><summary type="html">Introduction This project consists in the design and implementation of a digital up-counter on a FPGA board. A signal from a physical push-button is filtered through a debouncer and an edge detector and is used in a counter process to increment one unit each time the button is pushed. The current value of the counter is shown on the board’s LEDs in a binary form.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" /><media:content medium="image" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A two bit adder in VHDL</title><link href="http://localhost:4000/projects/a-two-bit-adder-in-VHDL/" rel="alternate" type="text/html" title="A two bit adder in VHDL" /><published>2018-10-03T14:00:00+02:00</published><updated>2018-10-03T14:00:00+02:00</updated><id>http://localhost:4000/projects/a-two-bit-adder-in-VHDL</id><content type="html" xml:base="http://localhost:4000/projects/a-two-bit-adder-in-VHDL/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This project consists in the design and implementation of a digital &lt;strong&gt;two bit adder&lt;/strong&gt;. To do this, two methods are used. The first is using &lt;strong&gt;VHDL code&lt;/strong&gt; only and a full adder and a &lt;strong&gt;half adder as components&lt;/strong&gt;. The other is using a Xininx’s Vivado feature named &lt;strong&gt;Block Design&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;workflow&quot;&gt;Workflow&lt;/h2&gt;
+&lt;p&gt;The hardware description of the two bit adder has been developed using two methods. The first is using only VHDL code and two components, a half-adder and a full-adder, that are instantiated in the top level. The other method is using a Xilinx’s Vivado feature named Block Design as the top level file.&lt;/p&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1 Introduction . . . . . . . . . . . . . . . . . 1
+1.1 Aim  . . . . . . . . . . . . . . . . . . . . 1
+1.2 Background . . . . . . . . . . . . . . . . . 1
+2 Workflow . . . . . . . . . . . . . . . . . . . 3
+2.1 VHDL-based top level . . . . . . . . . . . . 3
+2.1.1 Libraries . . . . . . . . . . . . . . . . .3
+2.1.2 Entity . . . . . . . . . . . . . . . . . . 3
+2.1.3 Architecture . . . . . . . . . . . . . . . 3
+2.1.4 Components . . . . . . . . . . . . . . . . 4
+2.2 Block Design-based top level . . . . . . . . 6
+2.3 Testbench . . . . . . . . . . . . . . . . . .7
+3 Results and discussion . . . . . . . . . . . . 8
+3.1 Simulation . . . . . . . . . . . . . . . . . 8
+3.2 RTL analysis . . . . . . . . . . . . . . . . 8
+3.3 Synthesis analysis . . . . . . . . . . . . . 9
+4 Conclusion . . . . . . . . . . . . . . . . . .11
+References . . . . . . . . . . . . . . . . . . .12
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;check-out-the-document&quot;&gt;Check out the document&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://1drv.ms/b/s!AtguJR4tix_G7CgExuTcDRj522pv&quot; class=&quot;btn&quot;&gt;Open PDF&lt;/a&gt;&lt;/p&gt;</content><author><name>marcel</name></author><category term="projects" /><summary type="html">Introduction This project consists in the design and implementation of a digital two bit adder. To do this, two methods are used. The first is using VHDL code only and a full adder and a half adder as components. The other is using a Xininx’s Vivado feature named Block Design.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" /><media:content medium="image" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A two bit comparator in VHDL</title><link href="http://localhost:4000/projects/a-two-bit-comparator-in-VHDL/" rel="alternate" type="text/html" title="A two bit comparator in VHDL" /><published>2018-09-19T10:00:30+02:00</published><updated>2018-09-19T10:00:30+02:00</updated><id>http://localhost:4000/projects/a-two-bit-comparator-in-VHDL</id><content type="html" xml:base="http://localhost:4000/projects/a-two-bit-comparator-in-VHDL/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is a VHDL design of a digital &lt;strong&gt;two-bit comparator&lt;/strong&gt;. An output is shown depending on whether the comparation is greater, equal or less than the other.&lt;/p&gt;
+
+&lt;h2 id=&quot;workflow&quot;&gt;Workflow&lt;/h2&gt;
+&lt;p&gt;Three different methods to compare two bits have been implemented: its boolean equations, VHDL’s “when .. else” statement and VHDL’s “with .. select” statement. The &lt;strong&gt;simulation&lt;/strong&gt;, the &lt;strong&gt;RTL analysis&lt;/strong&gt; and the &lt;strong&gt;synthesis scheme&lt;/strong&gt; are shown as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1 Introduction . . . . . . . . . . . . . . . . . 1
+1.1 Aim  . . . . . . . . . . . . . . . . . . . . 1
+1.2 Background . . . . . . . . . . . . . . . . . 1
+2 Workflow . . . . . . . . . . . . . . . . . . . 3
+2.1 Top level. . . . . . . . . . . . . . . . . . 3
+2.1.1 Libraries. . . . . . . . . . . . . . . . . 3
+2.1.2 Entity . . . . . . . . . . . . . . . . . . 3
+2.1.3 Architecture . . . . . . . . . . . . . . . 4
+2.1.3.1 Method 1: boolean equations  . . . . . . 4
+2.1.3.2 Method 2: &quot;when .. else&quot; statement . . . 4
+2.1.3.3 Method 3: &quot;with .. select&quot; statement . . 5
+2.2 Testbench  . . . . . . . . . . . . . . . . . 5
+3 Results and conclusion . . . . . . . . . . . . 7
+3.1 Simulation . . . . . . . . . . . . . . . . . 7
+3.2 RTL analysis . . . . . . . . . . . . . . . . 7
+3.3 Synthesis analysis . . . . . . . . . . . . . 8
+4 Conclusion . . . . . . . . . . . . . . . . . .10
+References . . . . . . . . . . . . . . . . . . .11
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;check-out-the-document&quot;&gt;Check out the document&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://1drv.ms/b/s!AtguJR4tix_G42S3zPHYfIO35fwR&quot; class=&quot;btn&quot;&gt;Open PDF&lt;/a&gt;&lt;/p&gt;</content><author><name>marcel</name></author><category term="projects" /><summary type="html">Introduction This is a VHDL design of a digital two-bit comparator. An output is shown depending on whether the comparation is greater, equal or less than the other.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" /><media:content medium="image" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A digital chronometer design in VHDL</title><link href="http://localhost:4000/projects/a-digital-chronometer-design-in-VHDL/" rel="alternate" type="text/html" title="A digital chronometer design in VHDL" /><published>2018-01-26T15:01:10+01:00</published><updated>2018-01-26T15:01:10+01:00</updated><id>http://localhost:4000/projects/a-digital-chronometer-design-in-VHDL</id><content type="html" xml:base="http://localhost:4000/projects/a-digital-chronometer-design-in-VHDL/">&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;All along the semester, we have been working with Digital Systems subject as one of the main courses of the Electronics Engineering bachelor’s degree. Most part of the subject consist in practical cases where students, in groups of two or three, had to develop the projects based on hardware description languages (VHDL) and Field Programmable Gate Arrays (FPGA).
+This is the report of one of the practices we worked on so we are able to get recognized the competence in a foreign language.&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is the fifth practice of the subject. It consists in the development of a &lt;strong&gt;digital chronometer&lt;/strong&gt;. Given the instructions, we had to write and implement the &lt;strong&gt;hardware description&lt;/strong&gt; of a chronometer that can count up to 1 hour with a resolution of 10^-2 seconds. The source of the clock is the internal reference of the &lt;strong&gt;Basys 3&lt;/strong&gt; (100MHz). The current value of counting is shown on the four 7-segment displays embedded in the board. Due to the lack of displays, we should have be able to see the counting in two different modes (MM : SS and SS : CS) moving one of the switches of the board. One of the buttons is for the reset, another is to indicate START/STOP, another one is to store to a record memory the value of the counter at the moment we require it, and the other button is to show the recorded value while we push it down.&lt;/p&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1 Introduction . . . . . . . . . . . . . . . . . . . 1
+1.1 Objectives . . . . . . . . . . . . . . . . . . . 1
+1.2 Abstract . . . . . . . . . . . . . . . . . . . . 1
+2 Development of the digital chronometer . . . . . . 2
+2.1 Top level. . . . . . . . . . . . . . . . . . . . 2
+2.2 Components . . . . . . . . . . . . . . . . . . . 8
+2.2.1 Clock divider. . . . . . . . . . . . . . . . . 8
+2.2.2 Units division . . . . . . . . . . . . . . . . 9
+2.2.3 Edge detection . . . . . . . . . . . . . . . . 9
+2.2.4 Toggle . . . . . . . . . . . . . . . . . . . . 9
+3 Results and conclusion . . . . . . . . . . . . .  11
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;check-out-the-document&quot;&gt;Check out the document&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://1drv.ms/b/s!AtguJR4tix_G4SxiMLKT8_GdAsrF&quot; class=&quot;btn&quot;&gt;Open PDF&lt;/a&gt;&lt;/p&gt;</content><author><name>marcel</name></author><category term="projects" /><summary type="html">Abstract All along the semester, we have been working with Digital Systems subject as one of the main courses of the Electronics Engineering bachelor’s degree. Most part of the subject consist in practical cases where students, in groups of two or three, had to develop the projects based on hardware description languages (VHDL) and Field Programmable Gate Arrays (FPGA). This is the report of one of the practices we worked on so we are able to get recognized the competence in a foreign language.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" /><media:content medium="image" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Operational Amplifier Applications</title><link href="http://localhost:4000/projects/operational-amplifier-applications/" rel="alternate" type="text/html" title="Operational Amplifier Applications" /><published>2017-11-29T10:15:10+01:00</published><updated>2017-11-29T10:15:10+01:00</updated><id>http://localhost:4000/projects/operational-amplifier-applications</id><content type="html" xml:base="http://localhost:4000/projects/operational-amplifier-applications/">&lt;h2 id=&quot;introduction-and-goal&quot;&gt;Introduction and goal&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;operational amplifier&lt;/strong&gt; (op amp) is a very versatile analog component that, depending on 
+its configuration, allows to do some operations like amplify, add, subtract, integrate, oscillate 
+or filter analog signals. They are some of the typical applications where the component 
+is used in daily electronics.
+The goal of the document is to study from an introductory point of view some of the 
+applications mentioned above. To this end, a series of typical circuits built from 
+this component will be simulated and their behavior will be analyzed. Finally, 
+there are a number of frequently asked questions related to the op amp.
+The circuits are based on the information and examples found at [ref. 2] and [ref. 3]. 
+The basic operation of the circuits is found at [ref. 4].
+By default, if the opposite is not indicated, the following features are common for all of the circuits:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Virtual OPAMP for simulation, ±12V supply&lt;/li&gt;
+  &lt;li&gt;From 10k to 100k resistors&lt;/li&gt;
+  &lt;li&gt;Frequency of 1kHz&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;i.  Introduction and goal . . . . . . . . . . . 2
+ii.Linear applications  . . . . . . . . . . . . 3
+1.  Inverting amplifier . . . . . . . . . . . . 3
+2.  Non-inverting amplifier . . . . . . . . . . 4
+3.  Summing amplifier . . . . . . . . . . . . . 6
+4.  Subtractor amplifier. . . . . . . . . . . . 8
+5.  Inverting integrator. . . . . . . . . . .  11
+6.  Inverting differentiator. . . . . . . . .  12
+iii.Non-linear applications . . . . . . . . .  13
+7.  Trigger Schmitt . . . . . . . . . . . . .  13
+8.  Astable Multivibrator . . . . . . . . . .  14
+iv.Filters  . . . . . . . . . . . . . . . . .  16
+9.  Low-pass filter . . . . . . . . . . . . .  16
+10.High-pass filter . . . . . . . . . . . . .  19
+v.Questionnaire . . . . . . . . . . . . . . .  21
+vi.References . . . . . . . . . . . . . . . .  23
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;check-out-the-document&quot;&gt;Check out the document&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://1drv.ms/b/s!AtguJR4tix_G4S3GzX3gCyoagGaq&quot; class=&quot;btn&quot;&gt;Open PDF&lt;/a&gt;&lt;/p&gt;</content><author><name>marcel</name></author><category term="projects" /><summary type="html">Introduction and goal The operational amplifier (op amp) is a very versatile analog component that, depending on its configuration, allows to do some operations like amplify, add, subtract, integrate, oscillate or filter analog signals. They are some of the typical applications where the component is used in daily electronics. The goal of the document is to study from an introductory point of view some of the applications mentioned above. To this end, a series of typical circuits built from this component will be simulated and their behavior will be analyzed. Finally, there are a number of frequently asked questions related to the op amp. The circuits are based on the information and examples found at [ref. 2] and [ref. 3]. The basic operation of the circuits is found at [ref. 4]. By default, if the opposite is not indicated, the following features are common for all of the circuits: Virtual OPAMP for simulation, ±12V supply From 10k to 100k resistors Frequency of 1kHz</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" /><media:content medium="image" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

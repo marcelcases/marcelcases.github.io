@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link href="/styles.css" type="text/css" media="screen" rel="stylesheet">
+    <link href="/print.css" type="text/css" media="print" rel="stylesheet">
+    <script type="text/javascript" async="" src="https://platform.twitter.com/widgets.js"></script>
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA | Marcel Cases</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA" />
+<meta name="author" content="marcel" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Abstract The aim of this thesis is to study the main techniques of motor control in order to implement and design a hardware-based controller for a three-phase induction motor, developed in VHDL language and running on an Artix-7 FPGA (Xilinx). This controller is based on variable-frequency drive techniques. The modules that define this controller’s hardware description run concurrently to each other, and they allow the motor to have a better time response and they also improve its performance compared to a microcontroller. This thesis is related to digital systems, power electronics and control systems. Contents 1 Introduction . . . . . . . . . . . . . . . . . . 2 2 Motivation . . . . . . . . . . . . . . . . . . . 4 3 Variable-frequency Drive . . . . . . . . . . . . 6 4 Field Oriented Control . . . . . . . . . . . . . 9 5 Direct Torque Control. . . . . . . . . . . . . 16 6 Field Programmable Gate Arrays . . . . . . . . 19 7 Inverter and motor . . . . . . . . . . . . . . 24 8 Implementation and Verifcation of a scalar VFD on an FPGA with VHDL. . . . . 28 9 Simulation and Verifcation of a vector FOC on an FPGA with VHDL. . . . . 37 10 Conclusion. . . . . . . . . . . . . . . . . . 40 11 Future work . . . . . . . . . . . . . . . . . 41 Publication to UPC’s institutional repository Link Check out the document Open PDF" />
+<meta property="og:description" content="Abstract The aim of this thesis is to study the main techniques of motor control in order to implement and design a hardware-based controller for a three-phase induction motor, developed in VHDL language and running on an Artix-7 FPGA (Xilinx). This controller is based on variable-frequency drive techniques. The modules that define this controller’s hardware description run concurrently to each other, and they allow the motor to have a better time response and they also improve its performance compared to a microcontroller. This thesis is related to digital systems, power electronics and control systems. Contents 1 Introduction . . . . . . . . . . . . . . . . . . 2 2 Motivation . . . . . . . . . . . . . . . . . . . 4 3 Variable-frequency Drive . . . . . . . . . . . . 6 4 Field Oriented Control . . . . . . . . . . . . . 9 5 Direct Torque Control. . . . . . . . . . . . . 16 6 Field Programmable Gate Arrays . . . . . . . . 19 7 Inverter and motor . . . . . . . . . . . . . . 24 8 Implementation and Verifcation of a scalar VFD on an FPGA with VHDL. . . . . 28 9 Simulation and Verifcation of a vector FOC on an FPGA with VHDL. . . . . 37 10 Conclusion. . . . . . . . . . . . . . . . . . 40 11 Future work . . . . . . . . . . . . . . . . . 41 Publication to UPC’s institutional repository Link Check out the document Open PDF" />
+<link rel="canonical" href="http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/" />
+<meta property="og:url" content="http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/" />
+<meta property="og:site_name" content="Marcel Cases" />
+<meta property="og:image" content="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-03-14T14:00:00+01:00" />
+<script type="application/ld+json">
+{"image":"https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/"},"author":{"@type":"Person","name":"marcel"},"@type":"BlogPosting","url":"http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/","headline":"Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA","dateModified":"2019-03-14T14:00:00+01:00","datePublished":"2019-03-14T14:00:00+01:00","description":"Abstract The aim of this thesis is to study the main techniques of motor control in order to implement and design a hardware-based controller for a three-phase induction motor, developed in VHDL language and running on an Artix-7 FPGA (Xilinx). This controller is based on variable-frequency drive techniques. The modules that define this controller’s hardware description run concurrently to each other, and they allow the motor to have a better time response and they also improve its performance compared to a microcontroller. This thesis is related to digital systems, power electronics and control systems. Contents 1 Introduction . . . . . . . . . . . . . . . . . . 2 2 Motivation . . . . . . . . . . . . . . . . . . . 4 3 Variable-frequency Drive . . . . . . . . . . . . 6 4 Field Oriented Control . . . . . . . . . . . . . 9 5 Direct Torque Control. . . . . . . . . . . . . 16 6 Field Programmable Gate Arrays . . . . . . . . 19 7 Inverter and motor . . . . . . . . . . . . . . 24 8 Implementation and Verifcation of a scalar VFD on an FPGA with VHDL. . . . . 28 9 Simulation and Verifcation of a vector FOC on an FPGA with VHDL. . . . . 37 10 Conclusion. . . . . . . . . . . . . . . . . . 40 11 Future work . . . . . . . . . . . . . . . . . 41 Publication to UPC’s institutional repository Link Check out the document Open PDF","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed/atom.xml" title="Marcel Cases" />
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-1959218-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA | Marcel Cases</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA" />
+<meta name="author" content="marcel" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Abstract The aim of this thesis is to study the main techniques of motor control in order to implement and design a hardware-based controller for a three-phase induction motor, developed in VHDL language and running on an Artix-7 FPGA (Xilinx). This controller is based on variable-frequency drive techniques. The modules that define this controller’s hardware description run concurrently to each other, and they allow the motor to have a better time response and they also improve its performance compared to a microcontroller. This thesis is related to digital systems, power electronics and control systems. Contents 1 Introduction . . . . . . . . . . . . . . . . . . 2 2 Motivation . . . . . . . . . . . . . . . . . . . 4 3 Variable-frequency Drive . . . . . . . . . . . . 6 4 Field Oriented Control . . . . . . . . . . . . . 9 5 Direct Torque Control. . . . . . . . . . . . . 16 6 Field Programmable Gate Arrays . . . . . . . . 19 7 Inverter and motor . . . . . . . . . . . . . . 24 8 Implementation and Verifcation of a scalar VFD on an FPGA with VHDL. . . . . 28 9 Simulation and Verifcation of a vector FOC on an FPGA with VHDL. . . . . 37 10 Conclusion. . . . . . . . . . . . . . . . . . 40 11 Future work . . . . . . . . . . . . . . . . . 41 Publication to UPC’s institutional repository Link Check out the document Open PDF" />
+<meta property="og:description" content="Abstract The aim of this thesis is to study the main techniques of motor control in order to implement and design a hardware-based controller for a three-phase induction motor, developed in VHDL language and running on an Artix-7 FPGA (Xilinx). This controller is based on variable-frequency drive techniques. The modules that define this controller’s hardware description run concurrently to each other, and they allow the motor to have a better time response and they also improve its performance compared to a microcontroller. This thesis is related to digital systems, power electronics and control systems. Contents 1 Introduction . . . . . . . . . . . . . . . . . . 2 2 Motivation . . . . . . . . . . . . . . . . . . . 4 3 Variable-frequency Drive . . . . . . . . . . . . 6 4 Field Oriented Control . . . . . . . . . . . . . 9 5 Direct Torque Control. . . . . . . . . . . . . 16 6 Field Programmable Gate Arrays . . . . . . . . 19 7 Inverter and motor . . . . . . . . . . . . . . 24 8 Implementation and Verifcation of a scalar VFD on an FPGA with VHDL. . . . . 28 9 Simulation and Verifcation of a vector FOC on an FPGA with VHDL. . . . . 37 10 Conclusion. . . . . . . . . . . . . . . . . . 40 11 Future work . . . . . . . . . . . . . . . . . 41 Publication to UPC’s institutional repository Link Check out the document Open PDF" />
+<link rel="canonical" href="http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/" />
+<meta property="og:url" content="http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/" />
+<meta property="og:site_name" content="Marcel Cases" />
+<meta property="og:image" content="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-03-14T14:00:00+01:00" />
+<script type="application/ld+json">
+{"image":"https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/"},"author":{"@type":"Person","name":"marcel"},"@type":"BlogPosting","url":"http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/","headline":"Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA","dateModified":"2019-03-14T14:00:00+01:00","datePublished":"2019-03-14T14:00:00+01:00","description":"Abstract The aim of this thesis is to study the main techniques of motor control in order to implement and design a hardware-based controller for a three-phase induction motor, developed in VHDL language and running on an Artix-7 FPGA (Xilinx). This controller is based on variable-frequency drive techniques. The modules that define this controller’s hardware description run concurrently to each other, and they allow the motor to have a better time response and they also improve its performance compared to a microcontroller. This thesis is related to digital systems, power electronics and control systems. Contents 1 Introduction . . . . . . . . . . . . . . . . . . 2 2 Motivation . . . . . . . . . . . . . . . . . . . 4 3 Variable-frequency Drive . . . . . . . . . . . . 6 4 Field Oriented Control . . . . . . . . . . . . . 9 5 Direct Torque Control. . . . . . . . . . . . . 16 6 Field Programmable Gate Arrays . . . . . . . . 19 7 Inverter and motor . . . . . . . . . . . . . . 24 8 Implementation and Verifcation of a scalar VFD on an FPGA with VHDL. . . . . 28 9 Simulation and Verifcation of a vector FOC on an FPGA with VHDL. . . . . 37 10 Conclusion. . . . . . . . . . . . . . . . . . 40 11 Future work . . . . . . . . . . . . . . . . . 41 Publication to UPC’s institutional repository Link Check out the document Open PDF","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <div id="wrapper">
+        <nav>
+    <a id="montserrat" href="https://www.marcelcases.com"><img src="/images/montserrat.svg" width="304" height="76" alt="Marcel Cases" /></a>
+
+    <ul>
+      <li><a href="/">Projects</a></li>
+      <!--<li><a href="/projects/">Projects</a></li>-->
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+      <main>
+<!-- Begin Content -->
+        <article>
+          <header>
+            <h2>
+              <b><a href="/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/" rel="bookmark">Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA</a></b>
+            </h2>
+            <p>
+              Posted by <span class="vcard"><span class="fn">marcel</span></span>,
+              <span class="published" title="2019-03-14 14:00:00 +0100">March 14, 2019 @  2:00 pm</span>
+              
+                <span class="categories">in
+              
+              
+                <a href="/projects/" rel="category tag">Projects</a>
+              
+              
+              </span>
+              
+            </p>
+          </header>
+          <section>
+<!-- Begin Post -->
+<h2 id="abstract">Abstract</h2>
+<p>The aim of this thesis is to study the main techniques of motor control in order to implement and design a hardware-based controller for a three-phase induction motor, developed in VHDL language and running on an Artix-7 FPGA (Xilinx). This controller is based on variable-frequency drive techniques. The modules that define this controller’s hardware description run concurrently to each other, and they allow the motor to have a better time response and they also improve its performance compared to a microcontroller. This thesis is related to digital systems, power electronics and control systems.</p>
+
+<h2 id="contents">Contents</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1 Introduction . . . . . . . . . . . . . . . . . . 2
+2 Motivation . . . . . . . . . . . . . . . . . . . 4
+3 Variable-frequency Drive . . . . . . . . . . . . 6
+4 Field Oriented Control . . . . . . . . . . . . . 9
+5 Direct Torque Control. . . . . . . . . . . . .  16
+6 Field Programmable Gate Arrays . . . . . . . .  19
+7 Inverter and motor . . . . . . . . . . . . . .  24
+8 Implementation and Verifcation of a
+        scalar VFD on an FPGA with VHDL. . . . .  28
+9 Simulation and Verifcation of a
+        vector FOC on an FPGA with VHDL. . . . .  37
+10 Conclusion. . . . . . . . . . . . . . . . . .  40
+11 Future work . . . . . . . . . . . . . . . . .  41
+</code></pre></div></div>
+
+<h2 id="publication-to-upcs-institutional-repository">Publication to UPC’s institutional repository</h2>
+<p><a href="http://hdl.handle.net/2117/134233" class="btn">Link</a></p>
+
+<h2 id="check-out-the-document">Check out the document</h2>
+<p><a href="https://1drv.ms/b/s!AtguJR4tix_Gg7EbHingfbpoYLh_ag" class="btn">Open PDF</a></p>
+
+<!-- End Post -->
+          </section>
+        </article>
+<!-- End Content -->
+      </main>
+    </div>
+    
+    <style>
+  h6 {
+    font-weight: normal;
+  }
+</style>
+
+<span class='notbold'><center><h6><p>&copy; 2020 Marcel Cases<p></h6></center></span>
+
+    
+  </body>
+</html>
