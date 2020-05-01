@@ -34,4 +34,4 @@ Experience
 
 **[Link Industrial, S.L.U.](http://www.linkindustrial.es/web/en/)** _Technical Office_
 
-[Extended CV](mailto:m@rcel.xyz?subject=Request extended CV)
+[Extended CV](mailto:m@rcel.xyz?subject=Extended CV request)
