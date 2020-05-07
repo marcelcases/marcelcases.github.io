@@ -8,11 +8,11 @@ date: 2017-10-01 12:00:00 +01:00
 ---
 # About
 
-### _Marcel Cases i Freixenet_
+### Marcel Cases i Freixenet
 &#x1F4CD; Barcelona
-<br>
-<img src="/images/marcel.jpg" alt="drawing" width="175"/>
-<br>
+    
+<img src="/images/marcel.jpg" alt="drawing" width="175" style="border-radius: 5%;" />
+<br/>
 ---  
 
 Education

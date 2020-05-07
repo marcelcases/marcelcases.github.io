@@ -8,7 +8,7 @@ category: projects
 
 <ul>
   {% for post in site.posts %}
-    <li>
+    <li style="list-style-type: square">
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}

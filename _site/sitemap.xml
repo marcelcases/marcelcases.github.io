@@ -43,10 +43,10 @@
 <loc>http://localhost:4000/contact/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/projects/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/projects/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/google848307d116c013f5.html</loc>

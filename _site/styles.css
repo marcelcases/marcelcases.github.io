@@ -1,11 +1,13 @@
 html {
-  font-size: 62.5%;
+  font-size: 65%;
 }
 
 body {
   background-color: #ffffff;
   color: #000000;
-  font-family: Georgia, serif;
+  /*font-family: Georgia, serif;*/
+  /*font-family: system-ui;*/
+  font-family: "Segoe UI";
   font-size: 2rem;
   line-height: 2.8rem;
   margin: 0;
@@ -29,6 +31,10 @@ nav {
 #rails-logo {
   display: block;
   float: left;
+}
+
+entry-meta p {
+  text-transform: uppercase;
 }
 
 other a {
