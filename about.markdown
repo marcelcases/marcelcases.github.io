@@ -10,18 +10,15 @@ date: 2017-10-01 12:00:00 +01:00
 
 ### Marcel Cases i Freixenet
 &#x1F4CD; Barcelona
-    
-<img src="/images/marcel.jpg" alt="drawing" width="175" style="border-radius: 5%;" />
-<br/>
----  
+
+<img src="/images/marcel.jpg" alt="" width="175" /><br><br>
 
 Education
 ---------
 
 2018-2019
-:   **Exchange student**; Tallinn University of Technology. TalTech     
-      
-      
+:   **Exchange student**; Tallinn University of Technology. TalTech<br><br>
+
 2015-2019
 :   **BSc, Electronics and Automatic Control Engineering**; Universitat Politècnica de Catalunya. BarcelonaTech
 

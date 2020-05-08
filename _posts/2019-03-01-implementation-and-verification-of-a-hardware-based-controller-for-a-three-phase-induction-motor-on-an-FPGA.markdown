@@ -28,7 +28,7 @@ The aim of this thesis is to study the main techniques of motor control in order
 ```
 
 ## Publication to UPC's institutional repository
-[Link](http://hdl.handle.net/2117/134233){: .btn}
+[upcommons.upc.edu/handle/2117/134233](http://hdl.handle.net/2117/134233)
 
 ## Check out the document
 [Open PDF](https://1drv.ms/b/s!AtguJR4tix_Gg7EbHingfbpoYLh_ag){: .btn}
