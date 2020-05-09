@@ -11,7 +11,7 @@ date: 2018-11-14 15:00:00 +03:00
 The following VHDL code describes a **PWM signal generator** that works at an output frequency of approximately 1kHz and has a duty cycle that can be configured through the n-bit input port *duty*.
 
 ## VHDL code
-```
+```vhdl
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -65,7 +65,7 @@ end behavioral;
 ```
 
 ## Testbench
-```
+```vhdl
 library ieee; 
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-09T00:43:12+02:00</updated><id>http://localhost:4000/feed/atom.xml</id><title type="html">Marcel Cases</title><entry><title type="html">Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA</title><link href="http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/" rel="alternate" type="text/html" title="Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA" /><published>2019-03-14T14:00:00+01:00</published><updated>2019-03-14T14:00:00+01:00</updated><id>http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA</id><content type="html" xml:base="http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/">&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-09T14:11:24+02:00</updated><id>http://localhost:4000/feed/atom.xml</id><title type="html">Marcel Cases</title><entry><title type="html">Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA</title><link href="http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/" rel="alternate" type="text/html" title="Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA" /><published>2019-03-14T14:00:00+01:00</published><updated>2019-03-14T14:00:00+01:00</updated><id>http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA</id><content type="html" xml:base="http://localhost:4000/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/">&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;The aim of this thesis is to study the main techniques of motor control in order to implement and design a hardware-based controller for a three-phase induction motor, developed in VHDL language and running on an Artix-7 FPGA (Xilinx). This controller is based on variable-frequency drive techniques. The modules that define this controller’s hardware description run concurrently to each other, and they allow the motor to have a better time response and they also improve its performance compared to a microcontroller. This thesis is related to digital systems, power electronics and control systems.&lt;/p&gt;
 
 &lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
@@ -25,105 +25,105 @@
 &lt;p&gt;The following VHDL code describes a &lt;strong&gt;PWM signal generator&lt;/strong&gt; that works at an output frequency of approximately 1kHz and has a duty cycle that can be configured through the n-bit input port &lt;em&gt;duty&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;vhdl-code&quot;&gt;VHDL code&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;library ieee;
-use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
+&lt;div class=&quot;language-vhdl highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;library&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ieee&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ieee&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std_logic_1164&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ieee&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numeric_std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
 
-entity pwm is
-    generic (   n : integer := 10; -- 1024 bit resolution
-                eoc : integer := 99
-                );
-    port (  clk, reset : in std_logic;
-            duty : in std_logic_vector (n-1 downto 0);
-            pwm_out : out std_logic
-            );
-end pwm;
+&lt;span class=&quot;k&quot;&gt;entity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pwm&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;generic&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;integer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- 1024 bit resolution&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;eoc&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;integer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;99&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;port&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;clk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reset&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;std_logic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;duty&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;std_logic_vector&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;-1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;downto&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;pwm_out&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;out&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;std_logic&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pwm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
-architecture behavioral of pwm is
-    signal comptador : integer range 0 to 2**n-1;
-    signal comptador_clk_div : integer range 0 to eoc;
-    signal clk_div : std_logic ;
+&lt;span class=&quot;k&quot;&gt;architecture&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;behavioral&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pwm&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;signal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;comptador&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;integer&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;range&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;signal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;comptador_clk_div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;integer&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;range&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eoc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;signal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clk_div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;std_logic&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
-begin
+&lt;span class=&quot;k&quot;&gt;begin&lt;/span&gt;
 
-proc_clk_div : process (clk) begin
-    if rising_edge(clk) then
-        clk_div &amp;lt;= '0';
-        if reset = '1' then
-            comptador_clk_div &amp;lt;= 0;
-        elsif comptador_clk_div = eoc then
-            comptador_clk_div &amp;lt;= 0;
-            clk_div &amp;lt;= '1';
-        else comptador_clk_div &amp;lt;= comptador_clk_div + 1;
-        end if;
-    end if;
-end process;
+&lt;span class=&quot;n&quot;&gt;proc_clk_div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;process&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;begin&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rising_edge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;clk_div&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'1'&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;comptador_clk_div&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;elsif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;comptador_clk_div&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eoc&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;comptador_clk_div&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;clk_div&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;comptador_clk_div&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;comptador_clk_div&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
-proc_comptador : process (clk_div) is begin
-    if rising_edge(clk_div) then
-        if reset = '1' then
-            comptador &amp;lt;= 0;
-        elsif comptador = 2**n-2 then
-            comptador &amp;lt;= 0;
-        else
-            comptador &amp;lt;= comptador + 1;
-        end if;
-    end if;
-end process;
+&lt;span class=&quot;n&quot;&gt;proc_comptador&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;process&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clk_div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;begin&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rising_edge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clk_div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'1'&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;comptador&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;elsif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;comptador&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;-2&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;comptador&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;comptador&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;comptador&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
-pwm_out &amp;lt;= '1' when comptador &amp;lt; to_integer(unsigned(duty)) else '0';
+&lt;span class=&quot;n&quot;&gt;pwm_out&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'1'&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;comptador&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to_integer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;duty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
-end behavioral;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;behavioral&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;testbench&quot;&gt;Testbench&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;library ieee; 
-use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
+&lt;div class=&quot;language-vhdl highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;library&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ieee&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ieee&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std_logic_1164&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ieee&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;numeric_std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
 
-entity pwm_tb is
-    generic (   n : integer := 10;
-                eoc : integer := 99
-                );
-end pwm_tb;
+&lt;span class=&quot;k&quot;&gt;entity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pwm_tb&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;generic&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;integer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;eoc&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;integer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;99&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pwm_tb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
-architecture bench of pwm_tb is
-    component  pwm is
-        generic (   n : integer;
-                    eoc : integer
-                    );
-        port (  clk, reset : in std_logic;
-                duty : in std_logic_vector (n-1 downto 0);
-                pwm_out : out std_logic
-                );
-    end component ;
+&lt;span class=&quot;k&quot;&gt;architecture&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bench&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pwm_tb&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;component&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;pwm&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;generic&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;integer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+                    &lt;span class=&quot;n&quot;&gt;eoc&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;integer&lt;/span&gt;
+                    &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;port&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;clk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reset&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;std_logic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;duty&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;std_logic_vector&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;-1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;downto&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;pwm_out&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;out&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;std_logic&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
-    signal clk_tb : std_logic := '0';
-    signal reset_tb : std_logic := '1';
-    signal duty_tb : std_logic_vector (n-1 downto 0);
-    signal pwm_out_tb : std_logic;
+    &lt;span class=&quot;k&quot;&gt;signal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clk_tb&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;std_logic&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;signal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reset_tb&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;std_logic&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;signal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;duty_tb&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;std_logic_vector&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;-1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;downto&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;signal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pwm_out_tb&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;std_logic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
         
-begin
+&lt;span class=&quot;k&quot;&gt;begin&lt;/span&gt;
 
-uut: pwm
-    generic map (   n =&amp;gt; 10,
-                    eoc =&amp;gt; 99
-                    )
-    port map (  clk =&amp;gt; clk_tb,
-                reset =&amp;gt; reset_tb,
-                duty =&amp;gt; duty_tb,
-                pwm_out =&amp;gt; pwm_out_tb
-                );
+&lt;span class=&quot;n&quot;&gt;uut&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pwm&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;generic&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                    &lt;span class=&quot;n&quot;&gt;eoc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;99&lt;/span&gt;
+                    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;port&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;clk&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clk_tb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;reset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reset_tb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;duty&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;duty_tb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;pwm_out&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pwm_out_tb&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 
-clk_tb &amp;lt;= not clk_tb after 5ns; --half_period
-reset_tb &amp;lt;= '0' after 10ns;
---duty_tb &amp;lt;= b&quot;0000000000&quot;; -- 0% duty cycle
-duty_tb &amp;lt;= b&quot;0111111111&quot;; -- 50% duty cycle
---duty_tb &amp;lt;= b&quot;1111111111&quot;; -- 100% duty cycle
+&lt;span class=&quot;n&quot;&gt;clk_tb&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clk_tb&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;after&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;--half_period&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;reset_tb&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'0'&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;after&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;--duty_tb &amp;lt;= b&quot;0000000000&quot;; -- 0% duty cycle&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;duty_tb&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;b&quot;0111111111&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- 50% duty cycle&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;--duty_tb &amp;lt;= b&quot;1111111111&quot;; -- 100% duty cycle&lt;/span&gt;
 
-end bench;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bench&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>marcel</name></author><category term="projects" /><summary type="html">Function The following VHDL code describes a PWM signal generator that works at an output frequency of approximately 1kHz and has a duty cycle that can be configured through the n-bit input port duty. VHDL code library ieee; use ieee.std_logic_1164.all; use ieee.numeric_std.all; entity pwm is generic ( n : integer := 10; -- 1024 bit resolution eoc : integer := 99 ); port ( clk, reset : in std_logic; duty : in std_logic_vector (n-1 downto 0); pwm_out : out std_logic ); end pwm; architecture behavioral of pwm is signal comptador : integer range 0 to 2**n-1; signal comptador_clk_div : integer range 0 to eoc; signal clk_div : std_logic ; begin proc_clk_div : process (clk) begin if rising_edge(clk) then clk_div &amp;lt;= '0'; if reset = '1' then comptador_clk_div &amp;lt;= 0; elsif comptador_clk_div = eoc then comptador_clk_div &amp;lt;= 0; clk_div &amp;lt;= '1'; else comptador_clk_div &amp;lt;= comptador_clk_div + 1; end if; end if; end process; proc_comptador : process (clk_div) is begin if rising_edge(clk_div) then if reset = '1' then comptador &amp;lt;= 0; elsif comptador = 2**n-2 then comptador &amp;lt;= 0; else comptador &amp;lt;= comptador + 1; end if; end if; end process; pwm_out &amp;lt;= '1' when comptador &amp;lt; to_integer(unsigned(duty)) else '0'; end behavioral; Testbench library ieee; use ieee.std_logic_1164.all; use ieee.numeric_std.all; entity pwm_tb is generic ( n : integer := 10; eoc : integer := 99 ); end pwm_tb; architecture bench of pwm_tb is component pwm is generic ( n : integer; eoc : integer ); port ( clk, reset : in std_logic; duty : in std_logic_vector (n-1 downto 0); pwm_out : out std_logic ); end component ; signal clk_tb : std_logic := '0'; signal reset_tb : std_logic := '1'; signal duty_tb : std_logic_vector (n-1 downto 0); signal pwm_out_tb : std_logic; begin uut: pwm generic map ( n =&amp;gt; 10, eoc =&amp;gt; 99 ) port map ( clk =&amp;gt; clk_tb, reset =&amp;gt; reset_tb, duty =&amp;gt; duty_tb, pwm_out =&amp;gt; pwm_out_tb ); clk_tb &amp;lt;= not clk_tb after 5ns; --half_period reset_tb &amp;lt;= '0' after 10ns; --duty_tb &amp;lt;= b&quot;0000000000&quot;; -- 0% duty cycle duty_tb &amp;lt;= b&quot;0111111111&quot;; -- 50% duty cycle --duty_tb &amp;lt;= b&quot;1111111111&quot;; -- 100% duty cycle end bench;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" /><media:content medium="image" url="https://raw.githubusercontent.com/marcelcases/marcelcases.github.io/master/favicon/apple-icon-180x180.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">A parameterizable multiplier in VHDL</title><link href="http://localhost:4000/projects/a-parameterizable-multiplier-in-VHDL/" rel="alternate" type="text/html" title="A parameterizable multiplier in VHDL" /><published>2018-11-07T13:00:00+01:00</published><updated>2018-11-07T13:00:00+01:00</updated><id>http://localhost:4000/projects/a-parameterizable-multiplier-in-VHDL</id><content type="html" xml:base="http://localhost:4000/projects/a-parameterizable-multiplier-in-VHDL/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This project consists in the design, simulation and implementation in VHDL of a parameterizable multiplier using &lt;strong&gt;generate&lt;/strong&gt; and &lt;strong&gt;for statements&lt;/strong&gt; and &lt;strong&gt;structural design&lt;/strong&gt;. Given a number &lt;em&gt;data_width&lt;/em&gt;, the synthesizer will reconfigure itself in order to perform a multiplication using &lt;em&gt;data_width&lt;/em&gt; switches by &lt;em&gt;data_width&lt;/em&gt; switches. The result will be shown on four 7-segment displays in hexadecimal.&lt;/p&gt;
 &lt;h2 id=&quot;workflow&quot;&gt;Workflow&lt;/h2&gt;
