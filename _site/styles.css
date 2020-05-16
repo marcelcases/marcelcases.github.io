@@ -105,16 +105,6 @@ a > img {
   max-width: 740px;
 }
 
-nav {
-  margin: 4rem 2rem;
-  overflow: hidden;
-}
-
-#montserrat {
-  display: block;
-  float: left;
-}
-
 entry-meta p {
   text-transform: uppercase;
 }
@@ -130,11 +120,21 @@ other a:hover {
   text-decoration: underline;
 }
 
+#montserrat {
+  display: block;
+  float: left;
+}
+
+nav {
+  margin: 4rem 2rem;
+  overflow: hidden;
+}
+
 nav ul {
   float: right;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   list-style: none;
-  margin: 2.3rem 0 0;
+  margin: 1rem 0 0;
   padding: 0;
 }
 
@@ -154,6 +154,46 @@ nav ul li a {
 nav ul li a:hover {
   border-bottom: 0.2rem solid #000000;
   color: #000000;
+}
+
+social {
+  margin: 4rem 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+social ul {
+  float: right;
+  font-size: 2.2rem;
+  list-style: none;
+  margin: 0 0 0;
+  padding: 0;
+  display: block;
+  margin-right: 0;
+}
+
+social ul li {
+  display: inline;
+  margin: 0 0 0 2rem;
+}
+
+social ul li a {
+  border-bottom: none;
+  color: #808080;
+  font-weight: bold;
+  padding-bottom: 0.1rem;
+  text-decoration: none;
+}
+
+social ul li a:hover {
+  border-bottom: none;
+  color: #000000;
+}
+
+footer {
+  font-weight: normal;
+  line-height: 153%;
+  text-align: center;
 }
 
 main {
@@ -301,17 +341,7 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   font-size: 12px;
 }
 
-@media only screen and (max-width: 640px) {
-  nav {
-    margin: 2rem 2rem 3rem;
-  }
-
-  nav ul li {
-    margin: 0 2rem 0 0;
-  }
-}
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 660px) {
   nav {
     margin: 2rem 1.5rem 1rem;
   }
@@ -323,10 +353,34 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   nav ul {
     float: none;
     margin: 1.5rem 0 0.5rem;
+	font-size: 1.4rem;
   }
 
   nav ul li {
     margin: 0 2rem 0 0;
+  }
+  
+  social {
+    margin: 0 0;
+  }
+  
+  social ul {
+    font-size: 2rem;
+  }
+  
+  footer {
+	font-weight: normal;
+	line-height: 153%;
+	text-align: center;
+  }
+  
+  other {
+	font-size: 85%;
+	line-height: 2.3rem;
+  }
+  
+  h1 {
+	font-size: 3.2rem;
   }
 
   main {
