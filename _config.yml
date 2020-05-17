@@ -1,5 +1,6 @@
 title: Marcel Cases
 url: https://www.marcelcases.com
+logo: "/images/montserrat.svg"
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -11,8 +12,8 @@ category_dir: ""
 category_title_prefix: ""
 author:
   fullname                  : Marcel Cases
-  rss                       : false # generate RSS feed and show it's icon in header
-  mail                      : m@rcel.xyz # change to your e-mail address
+  rss                       : false
+  mail                      : m@rcel.xyz
   twitter                   : marcelcases
   github                    : marcelcases
   youtube                   : marcelcases

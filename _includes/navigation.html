@@ -1,5 +1,10 @@
   <nav>
-    <a id="montserrat" href="/"><img src="/images/montserrat.svg" width="304" height="76" alt="Marcel Cases" /></a>
+	{% if site.logo %}
+	  <a id="montserrat" href="/"><img src="/images/montserrat.svg" width="304" height="76" alt="Marcel Cases" /></a>
+	{% else %}
+	  {{ site.title }}
+	{% endif %}
+	
 	{% include social.html %}
     <ul>
       <li><a href="/">Projects</a></li>
