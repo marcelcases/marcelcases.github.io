@@ -4,8 +4,7 @@
               <a href="{{ post.url }}" rel="bookmark">{{ post.title | escape }}</a>
             </h2>
             <p class="entry-meta">
-              Posted by <span class="vcard"><span class="fn">{{ post.author }}</span></span>,
-              <span class="published" title="{{ post.date | date_to_xml_schema }}">{{ post.date | date: "%B %-d, %Y @ %l:%M %P" }}</span>
+              <span class="published" title="{{ post.date | date_to_xml_schema }}">{{ post.date | date: "%B %-d, %Y" }}</span>
               {% if post.categories.size > 0 %}
                 <span class="categories">in
               {% for category in post.categories %}

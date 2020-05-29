@@ -16,8 +16,7 @@
               <b><a href="{{ page.url }}" rel="bookmark">{{ page.title | escape }}</a></b>
             </h2>
             <p>
-              Posted by <span class="vcard"><span class="fn">{{ page.author }}</span></span>,
-              <span class="published" title="{{ page.date | date_to_xml_schema }}">{{ page.date | date: "%B %-d, %Y @ %l:%M %P" }}</span>
+              <span class="published" title="{{ page.date | date_to_xml_schema }}">{{ page.date | date: "%B %-d, %Y" }}</span>
               {% if page.categories.size > 0 %}
                 <span class="categories">in
               {% for category in page.categories %}
