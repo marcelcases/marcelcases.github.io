@@ -67,7 +67,7 @@ entry-meta p {
   line-height: 26px;
   padding: 0 20px 0 23px;
   position: relative;
-  margin: 0 10px 0px 0;
+  margin: 0 10px 0 0;
   text-decoration: none;
   -webkit-transition: color 0.2s;
 }
@@ -391,6 +391,10 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
 	font-weight: normal;
 	line-height: 153%;
 	text-align: center;
+  }
+  
+  .tags {
+	font-size: 1.4rem;
   }
   
   other {
