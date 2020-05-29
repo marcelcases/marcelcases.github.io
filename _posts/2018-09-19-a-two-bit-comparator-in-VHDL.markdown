@@ -3,6 +3,7 @@ layout: post
 title: 'A two bit comparator in VHDL'
 author: marcel
 category: projects
+tags: vhdl fpga
 published: true
 date: 2018-09-19 11:00:30 +03:00
 ---

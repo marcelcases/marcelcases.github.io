@@ -6,6 +6,11 @@
 	{% endif %}
 	
 	{% include social.html %}
+	
+	{% if site.tags != "" %}
+		{% include collecttags.html %}
+	{% endif %}
+	
     <ul>
       <li><a href="/">Projects</a></li>
       <!--<li><a href="/projects/">Projects</a></li>-->

@@ -3,6 +3,7 @@ layout: post
 title: 'A parameterizable multiplier in VHDL'
 author: marcel
 category: projects
+tags: vhdl fpga
 published: true
 date: 2018-11-07 15:00:00 +03:00
 ---

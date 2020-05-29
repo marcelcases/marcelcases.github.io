@@ -4,17 +4,24 @@
               <a href="{{ post.url }}" rel="bookmark">{{ post.title | escape }}</a>
             </h2>
             <p class="entry-meta">
+			  Posted on
               <span class="published" title="{{ post.date | date_to_xml_schema }}">{{ post.date | date: "%B %-d, %Y" }}</span>
               {% if post.categories.size > 0 %}
-                <span class="categories">in
+              <span class="categories">in
               {% for category in post.categories %}
               {% if forloop.last %}
-                  <a href="/{{ category }}/" rel="category tag">{{ category | capitalize }}</a>
+                <a href="/{{ category }}/" rel="category tag">{{ category | capitalize }}</a>
               {% else %}
-                  <a href="{{ category }}" rel="category tag">{{ category | capitalize }}</a>,
+                <a href="{{ category }}" rel="category tag">{{ category | capitalize }}</a>,
               {% endif %}
               {% endfor %}
-                </span>
+              </span>
+			  <ul class="tags">
+			  {% for tag in post.tags %}
+			  {% capture tag_name %}{{ tag }}{% endcapture %}
+			  <li><a href="/tag/{{ tag_name }}" class="tag"><nobr>{{ tag_name }}</nobr></a></li>
+			  {% endfor %}
+			  </ul>
               {% endif %}
             </p>
           </header>

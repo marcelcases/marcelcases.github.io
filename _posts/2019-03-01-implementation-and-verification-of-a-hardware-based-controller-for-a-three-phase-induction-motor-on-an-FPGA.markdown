@@ -3,6 +3,7 @@ layout: post
 title: 'Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA'
 author: marcel
 category: projects
+tags: vhdl fpga
 published: true
 date: 2019-03-14 15:00:00 +02:00
 ---

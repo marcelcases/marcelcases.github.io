@@ -13,20 +13,27 @@
         <article>
           <header>
             <h2>
-              <b><a href="{{ page.url }}" rel="bookmark">{{ page.title | escape }}</a></b>
+              <b>{{ page.title | escape }}</b>
             </h2>
             <p>
+			  Posted on
               <span class="published" title="{{ page.date | date_to_xml_schema }}">{{ page.date | date: "%B %-d, %Y" }}</span>
               {% if page.categories.size > 0 %}
-                <span class="categories">in
+              <span class="categories">in
               {% for category in page.categories %}
               {% if forloop.last %}
                 <a href="/{{ category }}/" rel="category tag">{{ category | capitalize }}</a>
               {% else %}
-                <a href="{{ category }}" rel="category tag">{{ category | capitalize }}</a>,
+                <a href="{{ category }}" rel="category tag">{{ category | capitalize }}</a>
               {% endif %}
               {% endfor %}
               </span>
+			  <ul class="tags">
+			  {% for tag in page.tags %}
+			  {% capture tag_name %}{{ tag }}{% endcapture %}
+			  <li><a href="/tag/{{ tag_name }}" class="tag"><nobr>{{ tag_name }}</nobr></a></li>
+			  {% endfor %}
+			  </ul>
               {% endif %}
             </p>
           </header>
