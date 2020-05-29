@@ -4,7 +4,6 @@ title: 'Contact me'
 categories: contact
 author: marcel
 published: true
-date: 2017-10-01 12:00:00 +01:00
 ---
 # Contact me
 
