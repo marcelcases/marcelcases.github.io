@@ -58,6 +58,9 @@
 <loc>http://localhost:4000/tag/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/tag/thesis/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/tag/vhdl/</loc>
 </url>
 <url>
