@@ -1,3 +1,5 @@
+@import "syntaxhl.css";
+
 @font-face {
     font-family: SegoeUI;
     src:
@@ -303,7 +305,7 @@ article section img {
 }
 
 article section pre {
-  background-color: #eeeeee;
+  background-color: #EFF4F8; /* Code block background color */
   font-size: 1.5rem;
   line-height: 2.4rem;
   margin: 2rem 0;
@@ -316,13 +318,13 @@ article section code, article section tt {
 }
 
 article section p code, article section p tt {
-  color: #666666;
+  color: #404040;
   overflow: auto;
   white-space: nowrap;
 }
 
 article section pre code {
-  color: #666666;
+  color: #404040;
   font-size: 1.5rem;
 }
 
