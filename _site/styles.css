@@ -96,12 +96,12 @@ entry-meta p {
 }
 
 .tag:hover {
-  background-color: #cc0000;
+  background-color: #46637b;
   color: white;
 }
 
 .tag:hover::after {
-   border-left-color: #cc0000; 
+   border-left-color: #46637b; 
 }
 
 other a {
