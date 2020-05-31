@@ -6,7 +6,9 @@ layout: other
 
 <ul>
 {% for post in site.tags[page.tag] %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a><br></li>
+  <li style="list-style-type: square">
+	<a href="{{ post.url }}">{{ post.title }}</a><br>
+  </li>
 {% endfor %}
 </ul>
 </div>
