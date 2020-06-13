@@ -17,7 +17,7 @@ Education
 ---------
 
 2018-2019
-:   **Exchange student**; Tallinn University of Technology. TalTech<br><br>
+:   **Exchange student**; School of Information Technologies — Tallinn University of Technology. TalTech<br><br>
 
 2015-2019
 :   **BSc, Electronics and Automatic Control Engineering**; Universitat Politècnica de Catalunya. BarcelonaTech
