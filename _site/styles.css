@@ -36,7 +36,6 @@ html {
 body {
   background-color: #ffffff;
   color: #000000;
-  /*font-family: Georgia, serif;*/
   font-family: 'Inter', sans-serif;
   font-size: 2rem;
   line-height: 3rem;
@@ -219,6 +218,10 @@ social ul li a:hover {
 }
 .telegram-color :hover{
   color: #0088cc;
+  -webkit-transition: color 0.2s;
+}
+.spotify-color :hover{
+  color: #1db954;
   -webkit-transition: color 0.2s;
 }
 

@@ -44,17 +44,13 @@
 .icon-telegram:before {
   content: "\ea95";
 }
+.icon-spotify:before {
+  content: "\ea94";
+}
 </style>
 
 <social>
   <ul>
-	{% if site.author.youtube %}
-	<li class="youtube-color">
-		<a href="https://youtube.com/{{ site.author.youtube }}" target="_blank" class="smaller">
-		  <span class="icon-youtube"></span>
-		</a>
-	</li>
-	{% endif %}
 	{% if site.author.twitter %}
 	<li class="twitter-color">
 		<a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" class="smaller">
@@ -62,10 +58,17 @@
 		</a>
 	</li>
 	{% endif %}
-	{% if site.author.stackoverflow %}
-	<li class="stackoverflow-color">
-		<a href="https://stackoverflow.com/{{ site.author.stackoverflow }}" target="_blank" class="smaller">
-		  <span class="icon-stackoverflow"></span>
+	{% if site.author.youtube %}
+	<li class="youtube-color">
+		<a href="https://youtube.com/{{ site.author.youtube }}" target="_blank" class="smaller">
+		  <span class="icon-youtube"></span>
+		</a>
+	</li>
+	{% endif %}
+	{% if site.author.spotify %}
+	<li class="spotify-color">
+		<a href="https://open.spotify.com/user/{{ site.author.youtube }}" target="_blank" class="smaller">
+		  <span class="icon-spotify"></span>
 		</a>
 	</li>
 	{% endif %}

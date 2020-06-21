@@ -17,8 +17,8 @@ author:
   twitter                   : marcelcases
   github                    : marcelcases
   youtube                   : marcelcases
-  stackoverflow             : stackoverflow-user-name
   telegram                  : marcelcases
+  spotify                   : marcelcases
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
