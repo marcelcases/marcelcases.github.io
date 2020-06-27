@@ -79,6 +79,7 @@ entry-meta p {
   position: relative;
   margin: 0 10px 0 0;
   text-decoration: none;
+  -webkit-transition: background-color 0.2s;
   
 }
 
@@ -103,12 +104,13 @@ entry-meta p {
   position: absolute;
   right: 0;
   top: 0;
+  -webkit-transition: border-left-color 0.2s;
 }
 
 .tag:hover {
   background-color: #46637b;
   color: white;
-  -webkit-transition: color 0.2s, background-color 0.2s;
+  -webkit-transition: background-color 0.2s;
 }
 
 .tag:hover::after {
