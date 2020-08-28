@@ -149,7 +149,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 0 0 3rem;
+  margin: 0 0 0 2rem;
 }
 
 nav ul li a {
@@ -166,7 +166,6 @@ nav ul li a:hover {
 }
 
 social {
-  margin: 4rem 2rem;
   overflow: hidden;
   position: relative;
 }
@@ -378,7 +377,7 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   font-size: 12px;
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 720px) {
   nav {
     margin: 2rem 1.5rem 1rem;
   }
@@ -389,7 +388,7 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
 
   nav ul {
     float: none;
-    margin: 1.5rem 0 0.5rem;
+    margin: 0.85rem 0 0.5rem;
 	font-size: 1.4rem;
   }
 
