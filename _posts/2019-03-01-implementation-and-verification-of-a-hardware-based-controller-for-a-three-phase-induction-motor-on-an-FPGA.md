@@ -34,5 +34,5 @@ The aim of this thesis is to study the main techniques of motor control in order
 ## Check out the document
 [Open PDF](https://upcommons.upc.edu/bitstream/handle/2117/134233/master.pdf)
 
-## Go to the source code
+## Go to source code
 On [GitHub](https://github.com/marcelcases/bachelor-thesis)
