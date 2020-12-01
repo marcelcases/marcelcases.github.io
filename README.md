@@ -1,5 +1,5 @@
-# [marcelcases.com](https://www.marcelcases.com)
+# [marcelcases.com](https://marcelcases.com)
 
 Personal website
 
-Projects | About | Contact
+

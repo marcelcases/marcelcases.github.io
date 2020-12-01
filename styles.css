@@ -34,13 +34,14 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: /*#09172a;*/#ffffff;
   color: #000000;
   font-family: 'Inter', sans-serif;
   font-size: 2rem;
   line-height: 3rem;
   margin: 0;
   padding: 0;
+  padding-bottom: 500px;
 }
 
 a > img {
@@ -118,8 +119,12 @@ entry-meta p {
    -webkit-transition: border-left-color 0.2s;
 }
 
+other {
+  
+}
+
 other a {
-  color: #cc0000;
+  color: /*#ff8c00;*/#cc0000;
   padding-bottom: 0.1rem;
   text-decoration: none;
 }
@@ -172,7 +177,7 @@ social {
 
 social ul {
   float: right;
-  font-size: 2.4rem;
+  font-size: 3rem;
   list-style: none;
   margin: 0 0 0;
   padding: 0;
@@ -401,7 +406,7 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   }
   
   social ul {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
   }
   
   footer {
