@@ -1,4 +1,5 @@
 ---
+title: "Hi"
 layout: other
 categories: about
 author: marcel
@@ -57,14 +58,25 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 
 # Projects
 Here are some of the projects I've worked with:
+
 <ul>
-	{% for post in site.posts %}
+	{% assign featured-posts = site.posts | where: "featured","true" %}
+	{% for post in featured-posts %}
 		<li style="list-style-type: square">
 			<a href="{{ post.url }}">{{ post.title }}</a>
 		</li>
 	{% endfor %}
 </ul>
-Go to the [full list](/projects).
+
+You can also check out the [full list](/projects).
+
+<!--<ul>
+	{% for post in site.posts %}
+		<li style="list-style-type: square">
+			<a href="{{ post.url }}">{{ post.title }}</a>
+		</li>
+	{% endfor %}
+</ul>-->
 
 <br>
 

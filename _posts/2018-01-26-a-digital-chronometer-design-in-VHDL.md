@@ -6,6 +6,7 @@ category: projects
 tags: vhdl fpga
 published: true
 date: 2018-01-26 16:01:10 +02:00
+featured: true
 ---
 
 ## Abstract

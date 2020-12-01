@@ -6,6 +6,7 @@ category: projects
 tags: vhdl fpga thesis
 published: true
 date: 2019-03-14 15:00:00 +02:00
+featured: true
 ---
 
 ## Abstract
