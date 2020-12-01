@@ -50,7 +50,7 @@ a > img {
 
 #wrapper {
   margin: 0 auto 4rem;
-  max-width: 740px;
+  max-width: 760px;
 }
 
 entry-meta p {
@@ -382,7 +382,16 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   font-size: 12px;
 }
 
-@media only screen and (max-width: 720px) {
+.profile-img {
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 7rem;
+  margin-left: 2rem;
+  border-radius: 50%;
+  width: 27%;
+}
+
+@media only screen and (max-width: 800px) {
   nav {
     margin: 2rem 1.5rem 1rem;
   }
@@ -493,5 +502,8 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   article section pre code {
     font-size: 1rem;
     line-height: 1.2rem;
+  }
+  .profile-img {
+	width: 125px;
   }
 }

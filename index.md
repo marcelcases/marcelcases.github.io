@@ -1,12 +1,11 @@
 ---
 layout: other
-title: 'About'
 categories: about
 author: marcel
 published: true
 ---
 
-<img style="float: right; margin-top: 0px; margin-bottom: 7rem; border-radius: 50%;" src="https://dctwzw.db.files.1drv.com/y4mnn-vD-KdmXK2TZp6u0hgkq5nQ1S1kOyIJgRUUUveKjePxlkc8-F6TqHF3Ge_PfeVM-ULmGX4MlPFtu0UoUe4OKC3shqr18TreNKgiYEWT1TVDLSjUWQhG-ZRHu6xnjVxgfypBR6d68vzomxn-9MHOTGYmECfMddLACfVqLl54jCnmTGvp8gfcI-aW_2xhU2-nd33GQjqTn8kSVjpSBXFnw/marcel.jpg?psid=1" alt="" width="175" />
+<img src="https://dctwzw.db.files.1drv.com/y4mnn-vD-KdmXK2TZp6u0hgkq5nQ1S1kOyIJgRUUUveKjePxlkc8-F6TqHF3Ge_PfeVM-ULmGX4MlPFtu0UoUe4OKC3shqr18TreNKgiYEWT1TVDLSjUWQhG-ZRHu6xnjVxgfypBR6d68vzomxn-9MHOTGYmECfMddLACfVqLl54jCnmTGvp8gfcI-aW_2xhU2-nd33GQjqTn8kSVjpSBXFnw/marcel.jpg?psid=1" class="profile-img" />
 
 # Hi! I'm Marcel
 
@@ -48,7 +47,7 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 <br>
 
 # Projects
-Here are some of my featured projects:
+Here are some of the projects I've worked with:
 <ul>
 	{% for post in site.posts %}
 		<li style="list-style-type: square">
