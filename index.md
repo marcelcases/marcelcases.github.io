@@ -5,7 +5,16 @@ author: marcel
 published: true
 ---
 
-<img src="https://dctwzw.db.files.1drv.com/y4mnn-vD-KdmXK2TZp6u0hgkq5nQ1S1kOyIJgRUUUveKjePxlkc8-F6TqHF3Ge_PfeVM-ULmGX4MlPFtu0UoUe4OKC3shqr18TreNKgiYEWT1TVDLSjUWQhG-ZRHu6xnjVxgfypBR6d68vzomxn-9MHOTGYmECfMddLACfVqLl54jCnmTGvp8gfcI-aW_2xhU2-nd33GQjqTn8kSVjpSBXFnw/marcel.jpg?psid=1" class="profile-img" />
+<img src="https://dctwzw.db.files.1drv.com/y4mnn-vD-KdmXK2TZp6u0hgkq5nQ1S1kOyIJgRUUUveKjePxlkc8-F6TqHF3Ge_PfeVM-ULmGX4MlPFtu0UoUe4OKC3shqr18TreNKgiYEWT1TVDLSjUWQhG-ZRHu6xnjVxgfypBR6d68vzomxn-9MHOTGYmECfMddLACfVqLl54jCnmTGvp8gfcI-aW_2xhU2-nd33GQjqTn8kSVjpSBXFnw/marcel.jpg?psid=1" 
+style="
+	float: right;
+	margin-top: 0px;
+	margin-bottom: 7rem;
+	margin-left: 2rem;
+	border-radius: 50%;
+	width: 27%;
+	" 
+ />
 
 # Hi! I'm Marcel
 

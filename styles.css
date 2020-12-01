@@ -382,14 +382,6 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   font-size: 12px;
 }
 
-.profile-img {
-  float: right;
-  margin-top: 0px;
-  margin-bottom: 7rem;
-  margin-left: 2rem;
-  border-radius: 50%;
-  width: 27%;
-}
 
 @media only screen and (max-width: 800px) {
   nav {
@@ -502,8 +494,5 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   article section pre code {
     font-size: 1rem;
     line-height: 1.2rem;
-  }
-  .profile-img {
-	width: 125px;
   }
 }
