@@ -68,7 +68,7 @@ Here are some of the projects I've worked with:
 	{% endfor %}
 </ul>
 
-You can also check out the [full list](/projects).
+You can also check out an [extended list](/projects).
 
 <!--<ul>
 	{% for post in site.posts %}
