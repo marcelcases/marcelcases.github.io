@@ -189,7 +189,7 @@ social ul {
 
 social ul li {
   display: inline;
-  margin: 0 0 0 2rem;
+  margin: 0 0 0 1.5rem;
 }
 
 social ul li a {
@@ -411,6 +411,10 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   social ul {
     font-size: 2.8rem;
   }
+  
+  /*social ul li {
+	margin: 0 0 0 1.25rem;
+  }*/
   
   footer {
 	font-weight: normal;
