@@ -36,7 +36,7 @@ Passionate about innovation and the application of informatics to real-life chal
 
 2018 -- 2019
 :   **Exchange student**
-:	School of Information Technologies — Tallinn University of Technology. TalTech<br><br>
+:	School of Information Technologies — Tallinn University of Technology. TalTech (Estonia)<br><br>
 
 2015 -- 2019
 :   **Bachelor in Electronics and Automatic Control Engineering**
