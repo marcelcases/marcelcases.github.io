@@ -43,7 +43,7 @@ Passionate about innovation and the application of informatics to real-life chal
 :	Universitat Politècnica de Catalunya. BarcelonaTech<br>
 <sub>240 ECTS</sub>
 
-    *Thesis title: [Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA](/projects/implementation-and-verification-of-a-hardware-based-controller-for-a-three-phase-induction-motor-on-an-FPGA/)*
+    *Thesis title: [Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA](https://github.com/marcelcases/bachelor-thesis)*
 
 
 ## Experience
@@ -54,21 +54,78 @@ Passionate about innovation and the application of informatics to real-life chal
 
 If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz?subject=CV request).
 
+
+## Skills
+
+<ul>
+	<li style="list-style-type: square">
+		Computational modelling and optimization
+	</li>
+	<li style="list-style-type: square">
+		Algorithmics and complexity
+	</li>
+	<li style="list-style-type: square">
+		Applied statistics and probability
+	</li>
+	<li style="list-style-type: square">
+		Machine Learning and Deep Learning
+	</li>
+	<li style="list-style-type: square">
+		Blockchain and decentralized apps
+	</li>
+	<li style="list-style-type: square">
+		Cloud Computing and Big Data
+	</li>
+	<li style="list-style-type: square">
+		Concurrency, parallelism and GPUs
+	</li>
+	<li style="list-style-type: square">
+		Logic synthesis and FPGAs
+	</li>
+</ul>
+
+
+
+
+
+## Tools
+<span class="label">Python</span>
+<span class="label">C++</span>
+<span class="label">C#</span>
+<span class="label">VHDL</span>
+<span class="label">Git</span>
+<span class="label">Scala</span>
+<span class="label">UNIX</span>
+<span class="label">Linux</span>
+<span class="label">RStudio</span>
+<span class="label">LaTeX</span>
+<span class="label">Erlang</span>
+<span class="label">Ethereum</span>
+<span class="label">TensorFlow</span>
+<span class="label">SQL</span>
+<span class="label">Java</span>
+<span class="label">AWS</span>
+<span class="label">Spark</span>
+
 <br>
+
 
 # Projects
 Here are some of the projects I've worked with:
 
 <ul>
-	{% assign featured-posts = site.posts | where: "featured","true" %}
-	{% for post in featured-posts %}
-		<li style="list-style-type: square">
-			<a href="{{ post.url }}">{{ post.title }}</a>
-		</li>
-	{% endfor %}
+	<li style="list-style-type: square">
+		<a href="https://github.com/marcelcases/miri-ammm-labs">Algorithmic methods for mathematical models</a>
+	</li>
+	<li style="list-style-type: square">
+		<a href="https://github.com/marcelcases/nonlinear-optimization">Nonlinear optimization (soon)</a>
+	</li>
+	<li style="list-style-type: square">
+		<a href="https://github.com/marcelcases/digital-systems-design-with-vhdl-labs">Digital systems design with VHDL</a>
+	</li>
 </ul>
 
-You can also check out an [extended list](/projects).
+Visit my **[GitHub profile](https://github.com/marcelcases)** to see more.
 
 <!--<ul>
 	{% for post in site.posts %}

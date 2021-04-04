@@ -4,7 +4,7 @@ title: 'Operational Amplifier Applications'
 author: marcel
 category: projects
 tags: electronics
-published: true
+published: false
 date: 2017-11-29 11:15:10 +02:00
 ---
 

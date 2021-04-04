@@ -4,7 +4,7 @@ title: 'Implementation and verification of a hardware-based controller for a thr
 author: marcel
 category: projects
 tags: vhdl fpga thesis
-published: true
+published: false
 date: 2019-03-14 15:00:00 +02:00
 featured: true
 ---
