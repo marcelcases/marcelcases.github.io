@@ -118,7 +118,7 @@ Here are some of the projects I've worked with:
 		<a href="https://github.com/marcelcases/miri-ammm-labs">Algorithmic methods for mathematical models</a>
 	</li>
 	<li style="list-style-type: square">
-		<a href="https://github.com/marcelcases/nonlinear-optimization">Nonlinear optimization (soon)</a>
+		<a href="https://github.com/marcelcases/nonlinear-optimization">Nonlinear optimization</a>
 	</li>
 	<li style="list-style-type: square">
 		<a href="https://github.com/marcelcases/digital-systems-design-with-vhdl-labs">Digital systems design with VHDL</a>
