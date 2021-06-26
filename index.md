@@ -21,10 +21,8 @@ style="
 
 I am an **electronics engineer** and **informatics student** based in &#x1F4CD; Barcelona.
 
-
 Passionate about innovation and the application of informatics to real-life challenges.
 <br><br>
-
 
 ## Education
 
@@ -45,7 +43,6 @@ Passionate about innovation and the application of informatics to real-life chal
 
     *Thesis title: [Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA](https://github.com/marcelcases/bachelor-thesis)*
 
-
 ## Experience
 
 **[Masats, S.A.](http://www.masats.es/en/) (Irizar Group)** _R+D+i Department_
@@ -54,12 +51,11 @@ Passionate about innovation and the application of informatics to real-life chal
 
 If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz?subject=CV request).
 
-
 ## Skills
 
 <ul>
 	<li style="list-style-type: square">
-		Computational modelling and optimization
+		Computational modeling and optimization
 	</li>
 	<li style="list-style-type: square">
 		Algorithmics and complexity
@@ -84,41 +80,42 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 	</li>
 </ul>
 
-
-
-
-
 ## Tools
 <span class="label">Python</span>
+<span class="label">TensorFlow</span>
+<span class="label">Sklearn</span>
+<span class="label">Git</span>
+<span class="label">UNIX</span>
+<span class="label">Linux</span>
+<span class="label">AMPL</span>
+<span class="label">RStudio</span>
+<span class="label">LaTeX</span>
+<span class="label">Ethereum</span>
 <span class="label">C++</span>
 <span class="label">C#</span>
 <span class="label">VHDL</span>
-<span class="label">Git</span>
-<span class="label">Scala</span>
-<span class="label">UNIX</span>
-<span class="label">Linux</span>
-<span class="label">RStudio</span>
-<span class="label">LaTeX</span>
-<span class="label">Erlang</span>
-<span class="label">Ethereum</span>
-<span class="label">TensorFlow</span>
 <span class="label">SQL</span>
 <span class="label">Java</span>
 <span class="label">AWS</span>
-<span class="label">Spark</span>
+<span class="label">Erlang</span>
 
 <br>
-
 
 # Projects
 Here are some of the projects I've worked with:
 
 <ul>
 	<li style="list-style-type: square">
-		<a href="https://github.com/marcelcases/miri-ammm-labs">Algorithmic methods for mathematical models</a>
+		<a href="https://github.com/marcelcases/heuristics-optimization">Heuristic optimization for scheduling</a>
 	</li>
 	<li style="list-style-type: square">
 		<a href="https://github.com/marcelcases/nonlinear-optimization">Nonlinear optimization</a>
+	</li>
+	<li style="list-style-type: square">
+		<a href="https://github.com/marcelcases/calibration-sensors-uncontrolled-environments">Machine learning-based calibration of sensors</a>
+	</li>
+	<li style="list-style-type: square">
+		<a href="https://github.com/marcelcases/ethereum-evaluation">Evaluation of a blockchain platform: Ethereum</a>
 	</li>
 	<li style="list-style-type: square">
 		<a href="https://github.com/marcelcases/digital-systems-design-with-vhdl-labs">Digital systems design with VHDL</a>
