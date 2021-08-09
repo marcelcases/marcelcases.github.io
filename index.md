@@ -98,6 +98,8 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 <span class="label">Java</span>
 <span class="label">AWS</span>
 <span class="label">Erlang</span>
+<span class="label">Qt</span>
+<span class="label">CSS</span>
 
 <br>
 
