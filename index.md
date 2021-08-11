@@ -58,19 +58,19 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 		Computational modeling and optimization
 	</li>
 	<li style="list-style-type: square">
+		Machine learning and deep learning
+	</li>
+	<li style="list-style-type: square">
 		Algorithmics and complexity
 	</li>
 	<li style="list-style-type: square">
 		Applied statistics and probability
 	</li>
 	<li style="list-style-type: square">
-		Machine Learning and Deep Learning
-	</li>
-	<li style="list-style-type: square">
 		Blockchain and decentralized apps
 	</li>
 	<li style="list-style-type: square">
-		Cloud Computing and Big Data
+		Cloud computing and big data
 	</li>
 	<li style="list-style-type: square">
 		Concurrency, parallelism and GPUs
