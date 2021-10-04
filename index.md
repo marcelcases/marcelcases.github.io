@@ -114,7 +114,7 @@ Here are some of the projects I've worked with:
 		<a href="https://github.com/marcelcases/nonlinear-optimization">Nonlinear optimization</a>
 	</li>
 	<li style="list-style-type: square">
-		<a href="https://github.com/marcelcases/calibration-sensors-uncontrolled-environments">Machine learning-based calibration of sensors</a>
+		<a href="https://github.com/marcelcases/calibration-sensors-machine-learning">Machine learning-based calibration of sensors</a>
 	</li>
 	<li style="list-style-type: square">
 		<a href="https://github.com/marcelcases/ethereum-evaluation">Evaluation of a blockchain platform: Ethereum</a>
