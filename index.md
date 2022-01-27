@@ -38,7 +38,7 @@ Passionate about innovation and the application of informatics to real-life chal
 
 2015 -- 2019
 :   **Bachelor in Electronics and Automatic Control Engineering**
-:	Universitat Politècnica de Catalunya. BarcelonaTech<br>
+:	EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech<br>
 <sub>240 ECTS</sub>
 
     *Thesis title: [Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA](https://github.com/marcelcases/bachelor-thesis)*
@@ -107,19 +107,22 @@ Here are some of the projects I've worked with:
 
 <ul>
 	<li style="list-style-type: square">
-		<a href="https://github.com/marcelcases/heuristics-optimization">Heuristic optimization for scheduling</a>
-	</li>
-	<li style="list-style-type: square">
-		<a href="https://github.com/marcelcases/nonlinear-optimization">Nonlinear optimization</a>
+		<a href="https://github.com/marcelcases/pattern-recognition-neural-network">Pattern recognition with Single Layer Neural Network</a>
 	</li>
 	<li style="list-style-type: square">
 		<a href="https://github.com/marcelcases/calibration-sensors-machine-learning">Machine learning-based calibration of sensors</a>
 	</li>
 	<li style="list-style-type: square">
-		<a href="https://github.com/marcelcases/ethereum-evaluation">Evaluation of a blockchain platform: Ethereum</a>
+		<a href="https://github.com/marcelcases/cluster-median-problem">The Cluster-Median Problem</a>
 	</li>
 	<li style="list-style-type: square">
-		<a href="https://github.com/marcelcases/digital-systems-design-with-vhdl-labs">Digital systems design with VHDL</a>
+		<a href="https://github.com/marcelcases/svm-model">Support Vector Machine modeling</a>
+	</li>
+	<li style="list-style-type: square">
+		<a href="https://github.com/marcelcases/nonlinear-optimization">Nonlinear optimization programming exercises</a>
+	</li>
+	<li style="list-style-type: square">
+		<a href="https://github.com/marcelcases/ethereum-evaluation">Evaluation of a blockchain platform: Ethereum</a>
 	</li>
 </ul>
 
