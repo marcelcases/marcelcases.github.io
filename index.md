@@ -45,9 +45,16 @@ Passionate about innovation and the application of informatics to real-life chal
 
 ## Experience
 
-**[Masats, S.A.](http://www.masats.es/en/) (Irizar Group)** _R+D+i Department_
+<sub>Current</sub><br>
+**[IREC - Institut de Recerca en Energia de Catalunya](https://www.irec.cat/)**<br>
+Energy Systems Analytics [group](https://www.irec.cat/research/group/energy-systems-analytics/)
 
-**[Link Industrial, S.L.U.](https://www.linkindustrial.es/web/en/)** _Technical Office_
+<sub>Former</sub><br>
+**[Masats, S.A.](https://www.masats.es/en/) (Irizar Group)**<br>
+R+D+i Department
+
+**[Link Industrial, S.L.U.](https://www.linkindustrial.es/web/en/)**<br>
+Technical Office
 
 If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz?subject=CV request).
 
