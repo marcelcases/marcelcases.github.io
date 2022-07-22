@@ -41,7 +41,7 @@ Passionate about innovation and the application of informatics to real-life chal
 :	EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech<br>
 <sub>240 ECTS</sub>
 
-    *Thesis title: [Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA](https://github.com/marcelcases/bachelor-thesis)*
+    *Thesis: [Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA](https://github.com/marcelcases/bachelor-thesis)*
 
 ## Experience
 
