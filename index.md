@@ -49,6 +49,8 @@ Passionate about innovation and the application of informatics to real-life chal
 **[IREC - Institut de Recerca en Energia de Catalunya](https://www.irec.cat/)**<br>
 Energy Systems Analytics [group](https://www.irec.cat/research/group/energy-systems-analytics/)
 
+**Freelance projects** comprising Cloud, IoT, UX and data management.
+
 <sub>Former</sub><br>
 **[Masats, S.A.](https://www.masats.es/en/) (Irizar Group)**<br>
 R+D+i Department
