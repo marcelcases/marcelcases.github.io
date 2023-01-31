@@ -19,7 +19,7 @@ style="
 
 # Hi! I'm Marcel
 
-I am an **electronics engineer** and **informatics student** based in &#x1F4CD; Barcelona.
+I am an **engineer** and **informatics student** based in &#x1F4CD; Barcelona.
 
 Passionate about innovation and the application of informatics to real-life challenges.
 <br><br>
