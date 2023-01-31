@@ -26,22 +26,19 @@ Passionate about innovation and the application of informatics to real-life chal
 
 ## Education
 
-2020 -- 2022 (expected)
-:   **Master in Innovation and Research in Informatics**
-:	Barcelona School of Informatics (FIB) — Universitat Politècnica de Catalunya. BarcelonaTech<br>
+**Master in Innovation and Research in Informatics**
+Barcelona School of Informatics (FIB) — Universitat Politècnica de Catalunya. BarcelonaTech<br>
 <sub>120 ECTS</sub>
 <br><br>
 
-2018 -- 2019
-:   **Exchange student**
-:	School of Information Technologies — Tallinn University of Technology. TalTech (Estonia)<br><br>
+**Exchange student**
+School of Information Technologies — Tallinn University of Technology. TalTech (Estonia)<br><br>
 
-2015 -- 2019
-:   **Bachelor in Electronics and Automatic Control Engineering**
-:	EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech<br>
+**Bachelor in Electronics and Automatic Control Engineering**
+EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech<br>
 <sub>240 ECTS</sub>
 
-    *Thesis: [Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA](https://github.com/marcelcases/bachelor-thesis)*
+*Thesis: [Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA](https://github.com/marcelcases/bachelor-thesis)*
 
 ## Experience
 
