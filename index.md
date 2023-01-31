@@ -28,7 +28,7 @@ Passionate about innovation and the application of informatics to real-life chal
 
 **Master in Innovation and Research in Informatics**<br>
 Barcelona School of Informatics (FIB) — Universitat Politècnica de Catalunya. BarcelonaTech<br>
-<sub>120 ECTS</sub>
+<sub>120 ECTS — 2 full years</sub>
 <br><br>
 
 **Exchange student**<br>
@@ -36,7 +36,7 @@ School of Information Technologies — Tallinn University of Technology. TalTech
 
 **Bachelor in Electronics and Automatic Control Engineering**<br>
 EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech<br>
-<sub>240 ECTS</sub>
+<sub>240 ECTS — 4 full years</sub>
 
 *Thesis: [Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA](https://github.com/marcelcases/bachelor-thesis)*
 
