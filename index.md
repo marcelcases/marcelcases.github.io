@@ -26,15 +26,15 @@ Passionate about innovation and the application of informatics to real-life chal
 
 ## Education
 
-**Master in Innovation and Research in Informatics**
+**Master in Innovation and Research in Informatics**<br>
 Barcelona School of Informatics (FIB) — Universitat Politècnica de Catalunya. BarcelonaTech<br>
 <sub>120 ECTS</sub>
 <br><br>
 
-**Exchange student**
+**Exchange student**<br>
 School of Information Technologies — Tallinn University of Technology. TalTech (Estonia)<br><br>
 
-**Bachelor in Electronics and Automatic Control Engineering**
+**Bachelor in Electronics and Automatic Control Engineering**<br>
 EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech<br>
 <sub>240 ECTS</sub>
 
