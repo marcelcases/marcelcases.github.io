@@ -39,7 +39,7 @@ School of Information Technologies — Tallinn University of Technology. TalTech
 EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech<br>
 <sub>240 ECTS — 4 full years</sub>
 
-*Thesis: [Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA](https://github.com/marcelcases/bachelor-thesis)*
+*Thesis: [Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA](https://upcommons.upc.edu/handle/2117/134233)*
 
 ## Experience
 
