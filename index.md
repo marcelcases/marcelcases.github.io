@@ -19,8 +19,7 @@ style="
 
 # Hi! I'm Marcel
 
-I am an **engineer** and **informatics student** based in
-<br>&#x1F4CD; Barcelona.
+**Computer scientist** based in &#x1F4CD; Barcelona.
 
 Passionate about innovation and the application of informatics to real-life challenges.
 <br><br>
@@ -35,11 +34,9 @@ Barcelona School of Informatics (FIB) — Universitat Politècnica de Catalunya.
 **Exchange student**<br>
 School of Information Technologies — Tallinn University of Technology. TalTech (Estonia)<br><br>
 
-**Bachelor in Electronics and Automatic Control Engineering**<br>
+**Bachelor in Electronics Engineering**<br>
 EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech<br>
 <sub>240 ECTS — 4 full years</sub>
-
-*Thesis: [Implementation and verification of a hardware-based controller for a three-phase induction motor on an FPGA](https://upcommons.upc.edu/handle/2117/134233)*
 
 ## Experience
 
@@ -127,22 +124,11 @@ Here are some of the projects I've worked with:
 		<a href="https://github.com/marcelcases/svm-model">Support Vector Machine modeling</a>
 	</li>
 	<li style="list-style-type: square">
-		<a href="https://github.com/marcelcases/nonlinear-optimization">Nonlinear optimization programming exercises</a>
-	</li>
-	<li style="list-style-type: square">
 		<a href="https://github.com/marcelcases/ethereum-evaluation">Evaluation of a blockchain platform: Ethereum</a>
 	</li>
 </ul>
 
 Visit my **[GitHub profile](https://github.com/marcelcases)** to see more.
-
-<!--<ul>
-	{% for post in site.posts %}
-		<li style="list-style-type: square">
-			<a href="{{ post.url }}">{{ post.title }}</a>
-		</li>
-	{% endfor %}
-</ul>-->
 
 <br>
 
