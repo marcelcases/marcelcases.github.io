@@ -36,8 +36,8 @@ html {
 
 body {
   /*background-image: url("images/gotes.jpg");*/
-  background-color: /*#09172a;*/#fdfdfd; /*orig ffffff*/
-  color: #333333; /*orig #000000*/
+  background-color: #fbfbfb;/*#09172a;*//*#fdfdfd;*/ /*orig ffffff*/
+  color: #404040; /*orig #000000*/
   font-family: 'Avenir', sans-serif;
   font-size: 2rem;
   line-height: 3rem;
@@ -76,7 +76,7 @@ other {
 }
 
 other a {
-  color: /*#ff8c00;*/#cc0000;
+  color: /*#ff8c00; #cc0000*/#b00000;
   padding-bottom: 0.1rem;
   text-decoration: none;
 }
@@ -92,11 +92,13 @@ other a:hover {
 }
 
 nav {
+  /* text-transform: uppercase; */
   margin: 4rem 2rem;
   overflow: hidden;
 }
 
 nav ul {
+  /* font-size:0.8em!important; */
   float: right;
   font-size: 1.6rem;
   list-style: none;
@@ -110,15 +112,15 @@ nav ul li {
 }
 
 nav ul li a {
-  border-bottom: 0.2rem solid #cc0000;
-  color: #cc0000;
+  border-bottom: 0.3rem solid #b00000;
+  color: #b00000;
   font-weight: bold;
   padding-bottom: 0.1rem;
   text-decoration: none;
 }
 
 nav ul li a:hover {
-  border-bottom: 0.2rem solid #000000;
+  border-bottom: 0.3rem solid #000000;
   color: #000000;
 }
 
@@ -184,6 +186,7 @@ social ul li a:hover {
 }
 
 footer {
+  text-transform: uppercase;
   font-weight: normal;
   line-height: 153%;
   text-align: center;
@@ -224,7 +227,7 @@ article header p {
 }
 
 article header p a {
-  color: #cc0000;
+  color: #b00000;
   text-decoration: none;
 }
 
@@ -264,7 +267,7 @@ article section li {
 }
 
 article section a {
-  color: #cc0000;
+  color: #b00000;
   text-decoration: none;
 }
 
@@ -347,7 +350,7 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   nav ul {
     float: none;
     margin: 0.85rem 0 0.5rem;
-	font-size: 1.4rem;
+	  font-size: 1.4rem;
   }
 
   nav ul li {
@@ -367,6 +370,7 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   }*/
   
   footer {
+  text-transform: uppercase;
 	font-weight: normal;
 	line-height: 153%;
 	text-align: center;
