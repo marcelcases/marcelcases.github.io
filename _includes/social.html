@@ -35,9 +35,6 @@
 .icon-stackoverflow:before {
   content: "\ead0";
 }
-.icon-twitter:before {
-  content: "\ea96";
-}
 .icon-youtube:before {
   content: "\ea9d";
 }
@@ -47,35 +44,48 @@
 .icon-spotify:before {
   content: "\ea94";
 }
+.icon-x:before {
+  content: "\e900";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
 </style>
 
 <social>
   <ul>
-	{% if site.author.twitter %}
-	<li class="twitter-color">
-		<a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" class="smaller">
-		  <span class="icon-twitter"></span>
+	{% if site.author.github %}
+	<li class="github-color">
+		<a href="https://github.com/{{ site.author.github }}" target="_blank" class="smaller">
+		  <span class="icon-github"></span>
 		</a>
 	</li>
 	{% endif %}
-	{% if site.author.youtube %}
-	<li class="youtube-color">
-		<a href="https://youtube.com/{{ site.author.youtube }}" target="_blank" class="smaller">
-		  <span class="icon-youtube"></span>
+	{% if site.author.linkedin %}
+	<li class="linkedin-color">
+		<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" class="smaller">
+		  <span class="icon-linkedin"></span>
 		</a>
 	</li>
 	{% endif %}
-	{% if site.author.spotify %}
+	{% if site.author.x %}
+	<li class="x-color">
+		<a href="https://x.com/{{ site.author.x }}" target="_blank" class="smaller">
+		  <span class="icon-x"></span>
+		</a>
+	</li>
+	{% endif %}
+	<!-- {% if site.author.spotify %}
 	<li class="spotify-color">
 		<a href="https://open.spotify.com/user/{{ site.author.youtube }}" target="_blank" class="smaller">
 		  <span class="icon-spotify"></span>
 		</a>
 	</li>
-	{% endif %}
-	{% if site.author.github %}
-	<li class="github-color">
-		<a href="https://github.com/{{ site.author.github }}" target="_blank" class="smaller">
-		  <span class="icon-github"></span>
+	{% endif %} -->
+	{% if site.author.youtube %}
+	<li class="youtube-color">
+		<a href="https://youtube.com/{{ site.author.youtube }}" target="_blank" class="smaller">
+		  <span class="icon-youtube"></span>
 		</a>
 	</li>
 	{% endif %}

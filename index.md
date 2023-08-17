@@ -6,7 +6,7 @@ author: marcel
 published: true
 ---
 
-<img src="https://dctwzw.db.files.1drv.com/y4mnn-vD-KdmXK2TZp6u0hgkq5nQ1S1kOyIJgRUUUveKjePxlkc8-F6TqHF3Ge_PfeVM-ULmGX4MlPFtu0UoUe4OKC3shqr18TreNKgiYEWT1TVDLSjUWQhG-ZRHu6xnjVxgfypBR6d68vzomxn-9MHOTGYmECfMddLACfVqLl54jCnmTGvp8gfcI-aW_2xhU2-nd33GQjqTn8kSVjpSBXFnw/marcel.jpg?psid=1" 
+<!-- <img src="https://dctwzw.db.files.1drv.com/y4mnn-vD-KdmXK2TZp6u0hgkq5nQ1S1kOyIJgRUUUveKjePxlkc8-F6TqHF3Ge_PfeVM-ULmGX4MlPFtu0UoUe4OKC3shqr18TreNKgiYEWT1TVDLSjUWQhG-ZRHu6xnjVxgfypBR6d68vzomxn-9MHOTGYmECfMddLACfVqLl54jCnmTGvp8gfcI-aW_2xhU2-nd33GQjqTn8kSVjpSBXFnw/marcel.jpg?psid=1" 
 style="
 	float: right;
 	margin-top: 0px;
@@ -15,42 +15,40 @@ style="
 	border-radius: 50%;
 	width: 27%;
 	" 
- />
+ /> -->
 
-# Hi! I'm Marcel
+<h1 class="h1-first"> Marcel Cases </h1>
 
-**Computer scientist** based in &#x1F4CD; Barcelona.
+**Computer Scientist** based in &#x1F4CD; Barcelona.
 
 Passionate about innovation and the application of informatics to real-life challenges.
-<br><br>
 
 ## Education
 
-**Master in Innovation and Research in Informatics**<br>
-Barcelona School of Informatics (FIB) — Universitat Politècnica de Catalunya. BarcelonaTech<br>
+**Master in Innovation and Research in Informatics**  
+Barcelona School of Informatics (FIB) — Universitat Politècnica de Catalunya. BarcelonaTech  
 <sub>120 ECTS — 2 full years</sub>
-<br><br>
 
-**Exchange student**<br>
-School of Information Technologies — Tallinn University of Technology. TalTech (Estonia)<br><br>
+**Exchange student**  
+School of Information Technologies — Tallinn University of Technology. TalTech (Estonia)
 
-**Bachelor in Electronics Engineering**<br>
-EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech<br>
+**Bachelor in Electronics Engineering**  
+EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech  
 <sub>240 ECTS — 4 full years</sub>
 
 ## Experience
 
-<sub>Current</sub><br>
-**[IREC - Institut de Recerca en Energia de Catalunya](https://www.irec.cat/)**<br>
+<sub>Current</sub>  
+**[IREC - Institut de Recerca en Energia de Catalunya](https://www.irec.cat/)**  
 Energy Systems Analytics [group](https://www.irec.cat/research/group/energy-systems-analytics/)
 
 **Freelance projects** comprising Cloud, IoT, UX and data management.
 
-<sub>Former</sub><br>
-**[Masats, S.A.](https://www.masats.es/en/) (Irizar Group)**<br>
+<sub>Former</sub>  
+**[Masats, S.A.](https://www.masats.es/en/) (Irizar Group)**  
 R+D+i Department
 
-**[Link Industrial, S.L.U.](https://www.linkindustrial.es/web/en/)**<br>
+**[Link Industrial, S.L.U.](https://www.linkindustrial.es/web/en/)**  
 Technical Office
 
 If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz?subject=CV request).
@@ -105,8 +103,6 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 <span class="label">Qt</span>
 <span class="label">CSS</span>
 
-<br>
-
 # Projects
 Here are some of the projects I've worked with:
 
@@ -130,18 +126,18 @@ Here are some of the projects I've worked with:
 
 Visit my **[GitHub profile](https://github.com/marcelcases)** to see more.
 
-<br>
-
 # Contact
-The preferred way of contacting me is to mail me at    
-**[m@rcel.xyz]**.  
+<!-- The preferred way of contacting me is to mail me at    
+**[m@rcel.xyz]**.   -->
 
-You can also try to catch me
-on Twitter as **[@marcelcases]** and **[Telegram]**.    
+The preferred way of contacting me is to mail me at    
+<span class="special-link">[m@rcel.xyz]</span>.  
+
+You can also try to catch me on <span class="icon-x"></span> as <span class="special-link">[@marcelcases]</span>, <span class="special-link">[LinkedIn]</span>, or <span class="special-link">[Telegram]</span>.    
 
 [m@rcel.xyz]: mailto:m@rcel.xyz?subject=Contact
-[@marcelcases]: https://twitter.com/marcelcases    
+[@marcelcases]: https://x.com/marcelcases    
 [Telegram]: tg://resolve?domain=marcelcases    
+[LinkedIn]: https://www.linkedin.com/in/marcelcases    
 
 Thank you!
-	

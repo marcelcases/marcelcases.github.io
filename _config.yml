@@ -11,14 +11,15 @@ markdown: kramdown
 category_dir: ""
 category_title_prefix: ""
 author:
-  fullname                  : Marcel Cases
+  fullname                  : Marcel Cases i Freixenet
   rss                       : false
   mail                      : m@rcel.xyz
-  twitter                   : marcelcases
+  x                         : marcelcases
   github                    : marcelcases
   youtube                   : marcelcases
   telegram                  : marcelcases
   spotify                   : marcelcases
+  linkedin                  : marcelcases
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
