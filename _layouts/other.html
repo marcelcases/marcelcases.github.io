@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-{% include head.html %}
-{% include google.html %}
-{% seo %}
+    <!-- Browser nav bar tinting -->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#fbfbfb">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#fbfbfb">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#fbfbfb">
+    {% include head.html %}
+    {% include google.html %}
+    {% seo %}
   </head>
   <body>
     <div id="wrapper">
       {% include navigation.html %}
 
       <main>
-<!-- Begin Content -->
-	<other>
-{{ content }}
-<!-- End Content -->
-	</other>
+        <!-- Begin Content -->
+        <other>
+        {{ content }}
+        <!-- End Content -->
+	      </other>
       </main>
     </div>
-    
     {% include footer.html %}
-    
   </body>
 </html>
