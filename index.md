@@ -17,7 +17,7 @@ style="
 	" 
  /> -->
 
-<h1 class="h1-first"> Marcel Cases </h1>
+<h1 class="h1-first" id="about"> Marcel Cases </h1>
 
 **Computer Scientist** based in &#x1F4CD; Barcelona.
 
