@@ -1,5 +1,5 @@
 ---
-title: "Hi"
+title: "Marcel Cases"
 layout: other
 categories: about
 author: marcel
@@ -127,9 +127,6 @@ Here are some of the projects I've worked with:
 Visit my **[GitHub profile](https://github.com/marcelcases)** to see more.
 
 # Contact
-<!-- The preferred way of contacting me is to mail me at    
-**[m@rcel.xyz]**.   -->
-
 The preferred way of contacting me is to mail me at    
 <span class="special-link">[m@rcel.xyz]</span>.  
 
