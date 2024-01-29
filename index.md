@@ -19,7 +19,7 @@ style="
 
 <h1 class="h1-first" id="about"> Marcel Cases </h1>
 
-**Computer Scientist** based in &#x1F4CD; Barcelona.
+**Engineer and Software Developer** based in &#x1F4CD; Barcelona.
 
 Passionate about innovation and the application of informatics to real-life challenges.
 
@@ -63,6 +63,12 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 		Machine learning and deep learning
 	</li>
 	<li style="list-style-type: square">
+		Cloud computing and big data
+	</li>
+	<li style="list-style-type: square">
+		Concurrency, parallelism and GPUs
+	</li>
+	<li style="list-style-type: square">
 		Algorithmics and complexity
 	</li>
 	<li style="list-style-type: square">
@@ -72,12 +78,6 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 		Blockchain and decentralized apps
 	</li>
 	<li style="list-style-type: square">
-		Cloud computing and big data
-	</li>
-	<li style="list-style-type: square">
-		Concurrency, parallelism and GPUs
-	</li>
-	<li style="list-style-type: square">
 		Logic synthesis and FPGAs
 	</li>
 </ul>
@@ -85,23 +85,24 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 ## Tools
 <span class="label">Python</span>
 <span class="label">TensorFlow</span>
-<span class="label">Sklearn</span>
+<span class="label">Scikit-learn</span>
 <span class="label">Git</span>
-<span class="label">UNIX</span>
-<span class="label">Linux</span>
-<span class="label">AMPL</span>
-<span class="label">RStudio</span>
-<span class="label">MATLAB</span>
 <span class="label">Docker</span>
+<span class="label">Linux</span>
+<span class="label">UNIX</span>
+<span class="label">RStudio</span>
 <span class="label">LaTeX</span>
+<span class="label">AWS</span>
 <span class="label">Ethereum</span>
-<span class="label">C++</span>
-<span class="label">C#</span>
 <span class="label">VHDL</span>
 <span class="label">SQL</span>
-<span class="label">AWS</span>
+<span class="label">MATLAB</span>
+<span class="label">C++</span>
 <span class="label">Qt</span>
 <span class="label">CSS</span>
+<span class="label">Airflow</span>
+<span class="label">Grafana</span>
+<span class="label">AMPL</span>
 
 # Projects
 Here are some of the projects I've worked with:
