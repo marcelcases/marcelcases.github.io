@@ -90,6 +90,7 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 <span class="label">Docker</span>
 <span class="label">Linux</span>
 <span class="label">UNIX</span>
+<span class="label">Conda-Forge</span>
 <span class="label">RStudio</span>
 <span class="label">LaTeX</span>
 <span class="label">AWS</span>
