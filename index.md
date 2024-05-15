@@ -39,12 +39,15 @@ EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech
 ## Experience
 
 <sub>Current</sub>  
-**[IREC - Institut de Recerca en Energia de Catalunya](https://www.irec.cat/)**  
-Energy Systems Analytics [group](https://www.irec.cat/research/group/energy-systems-analytics/)
+**[BSC - Barcelona Supercomputing Center](https://www.bsc.es/)**  
+Computational Earth Sciences [group](https://www.bsc.es/discover-bsc/organisation/scientific-structure/computational-earth-sciences)
 
 **Freelance projects** comprising Cloud, IoT, UX and data management.
 
 <sub>Former</sub>  
+**[IREC - Institut de Recerca en Energia de Catalunya](https://www.irec.cat/)**
+Energy Systems Analytics [group](https://www.irec.cat/research/group/energy-systems-analytics/)
+
 **[Masats, S.A.](https://www.masats.es/en/) (Irizar Group)**  
 R+D+i Department
 
