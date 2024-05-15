@@ -45,7 +45,7 @@ Computational Earth Sciences [group](https://www.bsc.es/discover-bsc/organisatio
 **Freelance projects** comprising Cloud, IoT, UX and data management.
 
 <sub>Former</sub>  
-**[IREC - Institut de Recerca en Energia de Catalunya](https://www.irec.cat/)**
+**[IREC - Institut de Recerca en Energia de Catalunya](https://www.irec.cat/)**  
 Energy Systems Analytics [group](https://www.irec.cat/research/group/energy-systems-analytics/)
 
 **[Masats, S.A.](https://www.masats.es/en/) (Irizar Group)**  
