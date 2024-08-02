@@ -6,7 +6,7 @@ author: marcel
 published: true
 ---
 
-<h1 class="h1-first" id="about"> Marcel Cases </h1>
+<h1 class="h1-first" id="about"> Marcel Cases Freixenet </h1>
 
 **Engineer and Software Developer** based in &#x1F4CD; Barcelona.
 
