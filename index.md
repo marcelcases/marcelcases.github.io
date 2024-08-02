@@ -29,7 +29,7 @@ EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech
 
 <sub>Current</sub>  
 **[BSC - Barcelona Supercomputing Center](https://www.bsc.es/)**  
-Research Engineer at Performance Team
+Research Engineer at Performance Team  
 Computational Earth Sciences [group](https://www.bsc.es/discover-bsc/organisation/scientific-structure/computational-earth-sciences)
 
 **Freelance projects** comprising Cloud, IoT, UX and data management.
