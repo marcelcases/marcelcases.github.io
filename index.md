@@ -29,7 +29,7 @@ EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech
 
 <sub>Current</sub>  
 **[BSC - Barcelona Supercomputing Center](https://www.bsc.es/)**  
-Research Engineer  
+Research Engineer at Performance Team
 Computational Earth Sciences [group](https://www.bsc.es/discover-bsc/organisation/scientific-structure/computational-earth-sciences)
 
 **Freelance projects** comprising Cloud, IoT, UX and data management.
@@ -50,16 +50,19 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 
 <ul>
 	<li style="list-style-type: square">
+		High Performance Computing
+	</li>
+	<li style="list-style-type: square">
+		Concurrency, parallelism and GPUs
+	</li>
+	<li style="list-style-type: square">
+		Computer networks and cloud computing
+	</li>
+	<li style="list-style-type: square">
 		Computational modeling and optimization
 	</li>
 	<li style="list-style-type: square">
 		Machine learning and deep learning
-	</li>
-	<li style="list-style-type: square">
-		Cloud computing and big data
-	</li>
-	<li style="list-style-type: square">
-		Concurrency, parallelism and GPUs
 	</li>
 	<li style="list-style-type: square">
 		Algorithmics and complexity
@@ -76,14 +79,17 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 </ul>
 
 ## Tools
+<span class="label">UNIX</span>
+<span class="label">Linux</span>
 <span class="label">Python</span>
-<span class="label">TensorFlow</span>
-<span class="label">Scikit-learn</span>
+<span class="label">C++</span>
+<span class="label">Fortran</span>
+<span class="label">Bash</span>
 <span class="label">Git</span>
 <span class="label">Docker</span>
-<span class="label">Linux</span>
-<span class="label">UNIX</span>
 <span class="label">Conda-Forge</span>
+<span class="label">TensorFlow</span>
+<span class="label">Scikit-learn</span>
 <span class="label">RStudio</span>
 <span class="label">LaTeX</span>
 <span class="label">AWS</span>
@@ -91,7 +97,6 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 <span class="label">VHDL</span>
 <span class="label">SQL</span>
 <span class="label">MATLAB</span>
-<span class="label">C++</span>
 <span class="label">Qt</span>
 <span class="label">CSS</span>
 <span class="label">Airflow</span>
