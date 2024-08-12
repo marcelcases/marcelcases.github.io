@@ -86,6 +86,8 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 <span class="label">Fortran</span>
 <span class="label">Bash</span>
 <span class="label">Git</span>
+<span class="label">OpenMP</span>
+<span class="label">MPI</span>
 <span class="label">Docker</span>
 <span class="label">Conda-Forge</span>
 <span class="label">TensorFlow</span>
