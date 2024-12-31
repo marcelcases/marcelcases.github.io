@@ -29,22 +29,17 @@ EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech
 
 <sub>Current</sub>  
 **[BSC - Barcelona Supercomputing Center](https://www.bsc.es/)**  
-Research Engineer at Performance Team  
+HPC Research Engineer at Performance Team  
 Computational Earth Sciences [group](https://www.bsc.es/discover-bsc/organisation/scientific-structure/computational-earth-sciences)
 
 **Freelance projects** comprising Cloud, IoT, UX and data management.
 
 <sub>Former</sub>  
 **[IREC - Institut de Recerca en Energia de Catalunya](https://www.irec.cat/)**  
-Energy Systems Analytics [group](https://www.irec.cat/research/group/energy-systems-analytics/)
+Software Developer at Energy Systems Analytics [group](https://www.irec.cat/research/group/energy-systems-analytics/)
 
-**[Masats, S.A.](https://www.masats.es/en/) (Irizar Group)**  
-R+D+i Department
-
-**[Link Industrial, S.L.U.](https://www.linkindustrial.es/web/en/)**  
-Technical Office
-
-If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz?subject=CV request).
+**[Masats](https://www.masats.es/en/)**  
+Digital Systems Engineer at R+D+i Department
 
 ## Skills
 
@@ -62,7 +57,7 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 		Computational modeling and optimization
 	</li>
 	<li style="list-style-type: square">
-		Machine learning and deep learning
+		Machine learning
 	</li>
 	<li style="list-style-type: square">
 		Algorithmics and complexity
@@ -79,6 +74,7 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 </ul>
 
 ## Tools
+
 <span class="label">UNIX</span>
 <span class="label">Linux</span>
 <span class="label">Python</span>
@@ -105,38 +101,13 @@ If you are interested, I can provide you with my [detailed CV](mailto:m@rcel.xyz
 <span class="label">Grafana</span>
 <span class="label">AMPL</span>
 
-# Projects
-Here are some of the projects I've worked with:
+## Contact
 
-<ul>
-	<li style="list-style-type: square">
-		<a href="https://github.com/marcelcases/pattern-recognition-neural-network">Pattern recognition with Single Layer Neural Network</a>
-	</li>
-	<li style="list-style-type: square">
-		<a href="https://github.com/marcelcases/calibration-sensors-machine-learning">Machine learning-based calibration of sensors</a>
-	</li>
-	<li style="list-style-type: square">
-		<a href="https://github.com/marcelcases/cluster-median-problem">The Cluster-Median Problem</a>
-	</li>
-	<li style="list-style-type: square">
-		<a href="https://github.com/marcelcases/svm-model">Support Vector Machine modeling</a>
-	</li>
-	<li style="list-style-type: square">
-		<a href="https://github.com/marcelcases/ethereum-evaluation">Evaluation of a blockchain platform: Ethereum</a>
-	</li>
-</ul>
-
-Visit my **[GitHub profile](https://github.com/marcelcases)** to see more.
-
-# Contact
 The preferred way of contacting me is to mail me at    
 <span class="special-link">[m@rcel.xyz]</span>.  
 
-You can also try to catch me on <span class="icon-x"></span> as <span class="special-link">[@marcelcases]</span>, <span class="special-link">[LinkedIn]</span>, or <span class="special-link">[Telegram]</span>.    
+You can also try to catch me on <span class="icon-x"></span> as <span class="special-link">[@marcelcases]</span>, or on <span class="special-link">[LinkedIn]</span>.    
 
 [m@rcel.xyz]: mailto:m@rcel.xyz?subject=Contact
 [@marcelcases]: https://x.com/marcelcases    
-[Telegram]: tg://resolve?domain=marcelcases    
 [LinkedIn]: https://www.linkedin.com/in/marcelcases    
-
-Thank you!
