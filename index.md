@@ -12,19 +12,6 @@ published: true
 
 Passionate about innovation and the application of informatics to real-life challenges.
 
-## Education
-
-**Master in Innovation and Research in Informatics**  
-Barcelona School of Informatics (FIB) — Universitat Politècnica de Catalunya. BarcelonaTech  
-<sub>120 ECTS — 2 full years</sub>
-
-**Exchange student**  
-School of Information Technologies — Tallinn University of Technology. TalTech (Estonia)
-
-**Bachelor in Electronics Engineering**  
-EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech  
-<sub>240 ECTS — 4 full years</sub>
-
 ## Experience
 
 <sub>Current</sub>  
@@ -40,6 +27,18 @@ Software Developer at Energy Systems Analytics [group](https://www.irec.cat/rese
 
 **[Masats](https://www.masats.es/en/)**  
 Digital Systems Engineer at R+D+i Department
+
+## Education
+
+**Master in Innovation and Research in Informatics**
+
+Barcelona School of Informatics (FIB) — Universitat Politècnica de Catalunya. BarcelonaTech
+
+**Bachelor in Electronics Engineering**
+
+EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech
+
+Visiting student at School of Information Technologies — TalTech (Estonia)
 
 ## Skills
 
