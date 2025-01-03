@@ -30,14 +30,11 @@ Digital Systems Engineer at R+D+i Department
 
 ## Education
 
-**Master in Innovation and Research in Informatics**
-
+**Master in Innovation and Research in Informatics**  
 Barcelona School of Informatics (FIB) — Universitat Politècnica de Catalunya. BarcelonaTech
 
-**Bachelor in Electronics Engineering**
-
-EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech
-
+**Bachelor in Electronics Engineering**  
+EPSEM School — Universitat Politècnica de Catalunya. BarcelonaTech  
 Visiting student at School of Information Technologies — TalTech (Estonia)
 
 ## Skills
