@@ -8,7 +8,7 @@ published: true
 
 <h1 class="h1-first" id="about"> Marcel Cases Freixenet </h1>
 
-**Engineer and Software Developer** based in &#x1F4CD; Barcelona.
+**Computer engineer and developer** based in &#x1F4CD; Barcelona.
 
 Passionate about innovation and the application of informatics to real-life challenges.
 
@@ -19,7 +19,7 @@ Passionate about innovation and the application of informatics to real-life chal
 HPC Research Engineer at Performance Team  
 Computational Earth Sciences [group](https://www.bsc.es/discover-bsc/organisation/scientific-structure/computational-earth-sciences)
 
-**Freelance projects** comprising Cloud, IoT, UX and data management.
+**Freelance projects** comprising Cloud, IoT, UX, CI/CD, and system integration.
 
 <sub>Former</sub>  
 **[IREC - Institut de Recerca en Energia de Catalunya](https://www.irec.cat/)**  
@@ -74,6 +74,7 @@ Visiting student at School of Information Technologies — TalTech (Estonia)
 <span class="label">UNIX</span>
 <span class="label">Linux</span>
 <span class="label">Python</span>
+<span class="label">C</span>
 <span class="label">C++</span>
 <span class="label">Fortran</span>
 <span class="label">Bash</span>
