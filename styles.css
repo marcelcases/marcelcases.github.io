@@ -364,10 +364,7 @@ article section blockquote {
   }*/
   
   footer {
-    /* text-transform: uppercase; */
-    font-weight: normal;
-    line-height: 153%;
-    text-align: center;
+    /* text-transform: uppercase; */	  
   }
 
   other {
@@ -388,6 +385,7 @@ article section blockquote {
 
   main {
     margin: 0 1.5rem;
+	  text-align: left;
   }
 
   article {
