@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
 
 
 html {
@@ -10,14 +10,15 @@ body {
   /*background-image: url("images/gotes.jpg");*/
   background-color: #fbfbfb;/*#09172a;*//*#fdfdfd;*/ /*orig ffffff*/
   color: #404040; /*orig #000000*/
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Atkinson Hyperlegible Next', sans-serif;
   font-size: 2rem;
   line-height: 3rem;
   margin: 0;
   padding: 0;
   padding-bottom: 75rem;
   text-align: justify;
-	font-weight: 350;
+	font-weight: 270;
+	letter-spacing: 0.04rem;
 }
 
 .label {
@@ -52,11 +53,16 @@ other a {
   color: /*#ff8c00; #cc0000*/#b00000;
   padding-bottom: 0.1rem;
   text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 0.07rem;
 }
 
 other a:hover {
   /*border-bottom: 0.2rem solid #cc0000;*/
   text-decoration: underline;
+	text-underline-offset: 0.5rem;
+	text-decoration-thickness: 0.25rem;
+
 }
 
 #montserrat {
@@ -144,6 +150,7 @@ social ul li a:hover {
   border-bottom: none;
   color: #000000;
 }
+
 .youtube-color :hover{
   color: #ff0000;
   -webkit-transition: color 0.1s;
@@ -168,10 +175,12 @@ social ul li a:hover {
   color: #24292e;
   -webkit-transition: color 0.1s;
 }
+
 .telegram-color :hover{
   color: #0088cc;
   -webkit-transition: color 0.1s;
 }
+
 .spotify-color :hover{
   color: #1db954;
   -webkit-transition: color 0.1s;
@@ -188,6 +197,7 @@ h1 {
   /* font-size: 3.2rem; */
   /* line-height: 2em; */
   /* margin-top: -6rem; */
+	font-weight: 550;
   padding-top: 5rem;
 }
 
@@ -195,7 +205,7 @@ h1 {
   /* font-size: 25rem; */
   /* line-height: 2em; */
   /* margin-top: -6rem; */
-  padding-top: 0;
+  padding-top: 0rem;
 }
 
 h2 {
