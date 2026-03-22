@@ -6,6 +6,8 @@ exclude:
   - Gemfile.lock
   - README.md
   - CNAME
+include:
+  - .config
 permalink: "/projects/:title/"
 markdown: kramdown
 category_dir: ""
