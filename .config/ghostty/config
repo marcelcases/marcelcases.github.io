@@ -1,0 +1,31 @@
+# Lletra
+font-size = 14
+font-thicken = true
+adjust-cell-height = 0%
+
+# Finestra
+window-width = 180
+window-height = 50
+
+# Nous terminals sempre a home
+window-inherit-working-directory = false
+working-directory = home
+
+# Aspecte principal
+theme = GitHub
+background = #FAFAFA
+background-opacity = 0.9
+background-blur = 100
+macos-titlebar-style = tabs
+cursor-style = block
+cursor-style-blink = false
+minimum-contrast = 1
+
+# Comportament
+copy-on-select = false
+quit-after-last-window-closed = false
+window-save-state = never
+unfocused-split-opacity = 0.6
+shell-integration-features = true
+
+# Dreceres
